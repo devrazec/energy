@@ -1,0 +1,3117 @@
+{
+    "summary": {
+        "15min": {
+            "Total": {
+                "total_active_energy": 2399.63,
+                "min_active_energy": 13.34,
+                "max_active_energy": 47.07,
+                "min_active_power": 53.36,
+                "max_active_power": 188.28,
+                "avg_active_power": 99.98440972222221
+            },
+            "PTA": {
+                "total_active_energy": 1656.14,
+                "min_active_energy": 9.3,
+                "max_active_energy": 31.88,
+                "min_active_power": 37.199999999999996,
+                "max_active_power": 127.52,
+                "avg_active_power": 69.00552083333334
+            },
+            "PTB": {
+                "total_active_energy": 743.4900000000001,
+                "min_active_energy": 4.04,
+                "max_active_energy": 15.190000000000001,
+                "min_active_power": 16.16,
+                "max_active_power": 60.76,
+                "avg_active_power": 30.97888888888888
+            }
+        },
+        "1h": {
+            "Total": {
+                "total_active_energy": 2399.6299999999997,
+                "min_active_energy": 54.22,
+                "max_active_energy": 176.10000000000002,
+                "min_active_power": 54.21916666666666,
+                "max_active_power": 176.10083333333333,
+                "avg_active_power": 99.98440972222222
+            },
+            "PTA": {
+                "total_active_energy": 1656.1399999999999,
+                "min_active_energy": 37.79,
+                "max_active_energy": 121.88000000000001,
+                "min_active_power": 37.78999999999999,
+                "max_active_power": 121.88,
+                "avg_active_power": 69.00552083333334
+            },
+            "PTB": {
+                "total_active_energy": 743.4899999999999,
+                "min_active_energy": 16.43,
+                "max_active_energy": 54.22,
+                "min_active_power": 16.429166666666667,
+                "max_active_power": 54.22083333333334,
+                "avg_active_power": 30.978888888888893
+            }
+        },
+        "3h": {
+            "Total": {
+                "total_active_energy": 2399.63,
+                "min_active_energy": 163.75,
+                "max_active_energy": 506.56999999999994,
+                "min_active_power": 54.58305555555555,
+                "max_active_power": 168.85583333333335,
+                "avg_active_power": 99.98440972222221
+            },
+            "PTA": {
+                "total_active_energy": 1656.14,
+                "min_active_energy": 114.13,
+                "max_active_energy": 349.78999999999996,
+                "min_active_power": 38.04333333333333,
+                "max_active_power": 116.59583333333335,
+                "avg_active_power": 69.00552083333332
+            },
+            "PTB": {
+                "total_active_energy": 743.49,
+                "min_active_energy": 49.620000000000005,
+                "max_active_energy": 156.77999999999997,
+                "min_active_power": 16.539722222222224,
+                "max_active_power": 52.25999999999999,
+                "avg_active_power": 30.978888888888893
+            }
+        }
+    },
+    "measurements": {
+        "15min": {
+            "2026-04-08T00:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T00:00:00Z",
+                    "imp_active_energy (kWh)": 9.95,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 39.800000000000004,
+                    "reactive_power (kVAR)": -15.92,
+                    "apparent_power (kVA)": 42.879999999999995
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T00:00:00Z",
+                    "imp_active_energy (kWh)": 4.15,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.603333333333335,
+                    "reactive_power (kVAR)": -8.76,
+                    "apparent_power (kVA)": 18.76
+                }
+            },
+            "2026-04-08T00:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T00:15:00Z",
+                    "imp_active_energy (kWh)": 9.92,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 39.68,
+                    "reactive_power (kVAR)": -15.959999999999999,
+                    "apparent_power (kVA)": 42.76
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T00:15:00Z",
+                    "imp_active_energy (kWh)": 4.15,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.599999999999998,
+                    "reactive_power (kVAR)": -8.72,
+                    "apparent_power (kVA)": 18.76
+                }
+            },
+            "2026-04-08T00:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T00:30:00Z",
+                    "imp_active_energy (kWh)": 9.83,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 39.32,
+                    "reactive_power (kVAR)": -16.04,
+                    "apparent_power (kVA)": 42.48
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T00:30:00Z",
+                    "imp_active_energy (kWh)": 4.17,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.676666666666666,
+                    "reactive_power (kVAR)": -8.6,
+                    "apparent_power (kVA)": 18.8
+                }
+            },
+            "2026-04-08T00:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T00:45:00Z",
+                    "imp_active_energy (kWh)": 9.94,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 39.803333333333335,
+                    "reactive_power (kVAR)": -16.176666666666666,
+                    "apparent_power (kVA)": 42.92666666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T00:45:00Z",
+                    "imp_active_energy (kWh)": 4.07,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.296666666666667,
+                    "reactive_power (kVAR)": -9.13,
+                    "apparent_power (kVA)": 18.66
+                }
+            },
+            "2026-04-08T01:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T01:00:00Z",
+                    "imp_active_energy (kWh)": 9.82,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 39.23666666666667,
+                    "reactive_power (kVAR)": -16.223333333333333,
+                    "apparent_power (kVA)": 42.473333333333336
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T01:00:00Z",
+                    "imp_active_energy (kWh)": 4.13,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.503333333333334,
+                    "reactive_power (kVAR)": -8.91,
+                    "apparent_power (kVA)": 18.78
+                }
+            },
+            "2026-04-08T01:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T01:15:00Z",
+                    "imp_active_energy (kWh)": 10.04,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.16,
+                    "reactive_power (kVAR)": -16.32,
+                    "apparent_power (kVA)": 43.32
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T01:15:00Z",
+                    "imp_active_energy (kWh)": 4.140000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.560000000000002,
+                    "reactive_power (kVAR)": -8.799999999999999,
+                    "apparent_power (kVA)": 18.8
+                }
+            },
+            "2026-04-08T01:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T01:30:00Z",
+                    "imp_active_energy (kWh)": 9.71,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.84,
+                    "reactive_power (kVAR)": -15.479999999999999,
+                    "apparent_power (kVA)": 41.839999999999996
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T01:30:00Z",
+                    "imp_active_energy (kWh)": 4.25,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 17.0,
+                    "reactive_power (kVAR)": -8.76,
+                    "apparent_power (kVA)": 19.08
+                }
+            },
+            "2026-04-08T01:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T01:45:00Z",
+                    "imp_active_energy (kWh)": 9.45,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 37.800000000000004,
+                    "reactive_power (kVAR)": -14.64,
+                    "apparent_power (kVA)": 40.6
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T01:45:00Z",
+                    "imp_active_energy (kWh)": 4.3,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 17.2,
+                    "reactive_power (kVAR)": -8.200000000000001,
+                    "apparent_power (kVA)": 19.08
+                }
+            },
+            "2026-04-08T02:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T02:00:00Z",
+                    "imp_active_energy (kWh)": 9.5,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.0,
+                    "reactive_power (kVAR)": -14.64,
+                    "apparent_power (kVA)": 40.68
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T02:00:00Z",
+                    "imp_active_energy (kWh)": 4.08,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.32,
+                    "reactive_power (kVAR)": -8.799999999999999,
+                    "apparent_power (kVA)": 18.560000000000002
+                }
+            },
+            "2026-04-08T02:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T02:15:00Z",
+                    "imp_active_energy (kWh)": 9.51,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.04,
+                    "reactive_power (kVAR)": -14.76,
+                    "apparent_power (kVA)": 40.800000000000004
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T02:15:00Z",
+                    "imp_active_energy (kWh)": 4.07,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.276666666666667,
+                    "reactive_power (kVAR)": -8.799999999999999,
+                    "apparent_power (kVA)": 18.52
+                }
+            },
+            "2026-04-08T02:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T02:30:00Z",
+                    "imp_active_energy (kWh)": 9.52,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.080000000000005,
+                    "reactive_power (kVAR)": -14.76,
+                    "apparent_power (kVA)": 40.88
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T02:30:00Z",
+                    "imp_active_energy (kWh)": 4.27,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 17.08,
+                    "reactive_power (kVAR)": -8.08,
+                    "apparent_power (kVA)": 18.919999999999998
+                }
+            },
+            "2026-04-08T02:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T02:45:00Z",
+                    "imp_active_energy (kWh)": 9.48,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 37.916666666666664,
+                    "reactive_power (kVAR)": -14.88,
+                    "apparent_power (kVA)": 40.68
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T02:45:00Z",
+                    "imp_active_energy (kWh)": 4.13,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.516666666666666,
+                    "reactive_power (kVAR)": -8.799999999999999,
+                    "apparent_power (kVA)": 18.72
+                }
+            },
+            "2026-04-08T03:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T03:00:00Z",
+                    "imp_active_energy (kWh)": 9.59,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.36,
+                    "reactive_power (kVAR)": -14.88,
+                    "apparent_power (kVA)": 41.16
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T03:00:00Z",
+                    "imp_active_energy (kWh)": 4.15,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.599999999999998,
+                    "reactive_power (kVAR)": -8.6,
+                    "apparent_power (kVA)": 18.720000000000002
+                }
+            },
+            "2026-04-08T03:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T03:15:00Z",
+                    "imp_active_energy (kWh)": 9.49,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 37.96,
+                    "reactive_power (kVAR)": -15.0,
+                    "apparent_power (kVA)": 40.800000000000004
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T03:15:00Z",
+                    "imp_active_energy (kWh)": 4.15,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.599999999999998,
+                    "reactive_power (kVAR)": -8.64,
+                    "apparent_power (kVA)": 18.72
+                }
+            },
+            "2026-04-08T03:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T03:30:00Z",
+                    "imp_active_energy (kWh)": 9.3,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 37.199999999999996,
+                    "reactive_power (kVAR)": -15.08,
+                    "apparent_power (kVA)": 40.16
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T03:30:00Z",
+                    "imp_active_energy (kWh)": 4.04,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.16,
+                    "reactive_power (kVAR)": -9.04,
+                    "apparent_power (kVA)": 18.52
+                }
+            },
+            "2026-04-08T03:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T03:45:00Z",
+                    "imp_active_energy (kWh)": 9.41,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 37.64,
+                    "reactive_power (kVAR)": -14.68,
+                    "apparent_power (kVA)": 40.36
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T03:45:00Z",
+                    "imp_active_energy (kWh)": 4.09,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.356666666666666,
+                    "reactive_power (kVAR)": -8.4,
+                    "apparent_power (kVA)": 18.44
+                }
+            },
+            "2026-04-08T04:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T04:00:00Z",
+                    "imp_active_energy (kWh)": 9.43,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 37.72,
+                    "reactive_power (kVAR)": -14.76,
+                    "apparent_power (kVA)": 40.56
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T04:00:00Z",
+                    "imp_active_energy (kWh)": 4.15,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.599999999999998,
+                    "reactive_power (kVAR)": -8.479999999999999,
+                    "apparent_power (kVA)": 18.599999999999998
+                }
+            },
+            "2026-04-08T04:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T04:15:00Z",
+                    "imp_active_energy (kWh)": 9.41,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 37.64,
+                    "reactive_power (kVAR)": -15.040000000000001,
+                    "apparent_power (kVA)": 40.52
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T04:15:00Z",
+                    "imp_active_energy (kWh)": 4.14,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.56,
+                    "reactive_power (kVAR)": -8.64,
+                    "apparent_power (kVA)": 18.72
+                }
+            },
+            "2026-04-08T04:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T04:30:00Z",
+                    "imp_active_energy (kWh)": 9.56,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.24,
+                    "reactive_power (kVAR)": -15.08,
+                    "apparent_power (kVA)": 41.080000000000005
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T04:30:00Z",
+                    "imp_active_energy (kWh)": 4.1899999999999995,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.78,
+                    "reactive_power (kVAR)": -8.57,
+                    "apparent_power (kVA)": 18.86
+                }
+            },
+            "2026-04-08T04:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T04:45:00Z",
+                    "imp_active_energy (kWh)": 9.5,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.0,
+                    "reactive_power (kVAR)": -15.04,
+                    "apparent_power (kVA)": 40.879999999999995
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T04:45:00Z",
+                    "imp_active_energy (kWh)": 4.0600000000000005,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.223333333333333,
+                    "reactive_power (kVAR)": -9.19,
+                    "apparent_power (kVA)": 18.66
+                }
+            },
+            "2026-04-08T05:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T05:00:00Z",
+                    "imp_active_energy (kWh)": 9.68,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.72,
+                    "reactive_power (kVAR)": -15.280000000000001,
+                    "apparent_power (kVA)": 41.63999999999999
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T05:00:00Z",
+                    "imp_active_energy (kWh)": 4.2,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.796666666666667,
+                    "reactive_power (kVAR)": -8.6,
+                    "apparent_power (kVA)": 18.88
+                }
+            },
+            "2026-04-08T05:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T05:15:00Z",
+                    "imp_active_energy (kWh)": 9.75,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 39.04333333333333,
+                    "reactive_power (kVAR)": -15.136666666666665,
+                    "apparent_power (kVA)": 41.88666666666666
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T05:15:00Z",
+                    "imp_active_energy (kWh)": 4.16,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.656666666666666,
+                    "reactive_power (kVAR)": -8.729999999999999,
+                    "apparent_power (kVA)": 18.78
+                }
+            },
+            "2026-04-08T05:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T05:30:00Z",
+                    "imp_active_energy (kWh)": 9.58,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.276666666666664,
+                    "reactive_power (kVAR)": -14.863333333333335,
+                    "apparent_power (kVA)": 41.03333333333333
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T05:30:00Z",
+                    "imp_active_energy (kWh)": 4.09,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.343333333333334,
+                    "reactive_power (kVAR)": -8.950000000000001,
+                    "apparent_power (kVA)": 18.66
+                }
+            },
+            "2026-04-08T05:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T05:45:00Z",
+                    "imp_active_energy (kWh)": 9.43,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 37.72,
+                    "reactive_power (kVAR)": -15.079999999999998,
+                    "apparent_power (kVA)": 40.64
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T05:45:00Z",
+                    "imp_active_energy (kWh)": 4.199999999999999,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.8,
+                    "reactive_power (kVAR)": -8.44,
+                    "apparent_power (kVA)": 18.84
+                }
+            },
+            "2026-04-08T06:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T06:00:00Z",
+                    "imp_active_energy (kWh)": 10.6,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 42.45333333333333,
+                    "reactive_power (kVAR)": -17.98,
+                    "apparent_power (kVA)": 46.13666666666666
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T06:00:00Z",
+                    "imp_active_energy (kWh)": 4.47,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 17.900000000000002,
+                    "reactive_power (kVAR)": -9.09,
+                    "apparent_power (kVA)": 20.103333333333335
+                }
+            },
+            "2026-04-08T06:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T06:15:00Z",
+                    "imp_active_energy (kWh)": 13.950000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 55.74,
+                    "reactive_power (kVAR)": -21.616666666666664,
+                    "apparent_power (kVA)": 59.81666666666666
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T06:15:00Z",
+                    "imp_active_energy (kWh)": 5.38,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 21.496666666666666,
+                    "reactive_power (kVAR)": -9.99,
+                    "apparent_power (kVA)": 23.69666666666667
+                }
+            },
+            "2026-04-08T06:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T06:30:00Z",
+                    "imp_active_energy (kWh)": 17.61,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 70.52333333333333,
+                    "reactive_power (kVAR)": -24.186666666666667,
+                    "apparent_power (kVA)": 74.73
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T06:30:00Z",
+                    "imp_active_energy (kWh)": 6.48,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 25.956666666666667,
+                    "reactive_power (kVAR)": -9.25,
+                    "apparent_power (kVA)": 27.64
+                }
+            },
+            "2026-04-08T06:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T06:45:00Z",
+                    "imp_active_energy (kWh)": 21.84,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 87.27,
+                    "reactive_power (kVAR)": -25.333333333333332,
+                    "apparent_power (kVA)": 90.78333333333335
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T06:45:00Z",
+                    "imp_active_energy (kWh)": 8.149999999999999,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 32.56333333333333,
+                    "reactive_power (kVAR)": -10.506666666666666,
+                    "apparent_power (kVA)": 34.24
+                }
+            },
+            "2026-04-08T07:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T07:00:00Z",
+                    "imp_active_energy (kWh)": 18.22,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 72.95666666666666,
+                    "reactive_power (kVAR)": -23.826666666666668,
+                    "apparent_power (kVA)": 76.72333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T07:00:00Z",
+                    "imp_active_energy (kWh)": 7.88,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 31.55666666666667,
+                    "reactive_power (kVAR)": -10.533333333333333,
+                    "apparent_power (kVA)": 33.276666666666664
+                }
+            },
+            "2026-04-08T07:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T07:15:00Z",
+                    "imp_active_energy (kWh)": 18.62,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 74.39666666666666,
+                    "reactive_power (kVAR)": -21.216666666666665,
+                    "apparent_power (kVA)": 77.43333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T07:15:00Z",
+                    "imp_active_energy (kWh)": 8.82,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 35.24333333333333,
+                    "reactive_power (kVAR)": -10.626666666666667,
+                    "apparent_power (kVA)": 36.800000000000004
+                }
+            },
+            "2026-04-08T07:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T07:30:00Z",
+                    "imp_active_energy (kWh)": 23.2,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 92.8,
+                    "reactive_power (kVAR)": -20.28,
+                    "apparent_power (kVA)": 95.04
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T07:30:00Z",
+                    "imp_active_energy (kWh)": 10.13,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.52,
+                    "reactive_power (kVAR)": -10.6,
+                    "apparent_power (kVA)": 41.919999999999995
+                }
+            },
+            "2026-04-08T07:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T07:45:00Z",
+                    "imp_active_energy (kWh)": 26.64,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 106.56,
+                    "reactive_power (kVAR)": -21.88,
+                    "apparent_power (kVA)": 108.83999999999999
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T07:45:00Z",
+                    "imp_active_energy (kWh)": 10.1,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.4,
+                    "reactive_power (kVAR)": -9.88,
+                    "apparent_power (kVA)": 41.6
+                }
+            },
+            "2026-04-08T08:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T08:00:00Z",
+                    "imp_active_energy (kWh)": 27.28,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 109.12,
+                    "reactive_power (kVAR)": -21.0,
+                    "apparent_power (kVA)": 111.08
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T08:00:00Z",
+                    "imp_active_energy (kWh)": 9.68,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.72,
+                    "reactive_power (kVAR)": -10.32,
+                    "apparent_power (kVA)": 40.080000000000005
+                }
+            },
+            "2026-04-08T08:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T08:15:00Z",
+                    "imp_active_energy (kWh)": 26.810000000000002,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 107.36666666666667,
+                    "reactive_power (kVAR)": -20.62333333333333,
+                    "apparent_power (kVA)": 109.36666666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T08:15:00Z",
+                    "imp_active_energy (kWh)": 11.72,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 46.93333333333334,
+                    "reactive_power (kVAR)": -10.413333333333334,
+                    "apparent_power (kVA)": 48.13333333333333
+                }
+            },
+            "2026-04-08T08:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T08:30:00Z",
+                    "imp_active_energy (kWh)": 28.619999999999997,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 114.35333333333334,
+                    "reactive_power (kVAR)": -21.776666666666667,
+                    "apparent_power (kVA)": 116.55
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T08:30:00Z",
+                    "imp_active_energy (kWh)": 10.36,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 41.39666666666667,
+                    "reactive_power (kVAR)": -10.47,
+                    "apparent_power (kVA)": 42.67333333333334
+                }
+            },
+            "2026-04-08T08:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T08:45:00Z",
+                    "imp_active_energy (kWh)": 28.36,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 113.44,
+                    "reactive_power (kVAR)": -21.64,
+                    "apparent_power (kVA)": 115.32
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T08:45:00Z",
+                    "imp_active_energy (kWh)": 11.39,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 45.56,
+                    "reactive_power (kVAR)": -10.799999999999999,
+                    "apparent_power (kVA)": 46.84
+                }
+            },
+            "2026-04-08T09:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T09:00:00Z",
+                    "imp_active_energy (kWh)": 27.23,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 109.03666666666668,
+                    "reactive_power (kVAR)": -20.18,
+                    "apparent_power (kVA)": 110.92
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T09:00:00Z",
+                    "imp_active_energy (kWh)": 12.15,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 48.653333333333336,
+                    "reactive_power (kVAR)": -10.413333333333334,
+                    "apparent_power (kVA)": 49.81333333333333
+                }
+            },
+            "2026-04-08T09:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T09:15:00Z",
+                    "imp_active_energy (kWh)": 30.19,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 120.63,
+                    "reactive_power (kVAR)": -21.176666666666666,
+                    "apparent_power (kVA)": 122.50666666666666
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T09:15:00Z",
+                    "imp_active_energy (kWh)": 13.079999999999998,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 52.26666666666667,
+                    "reactive_power (kVAR)": -11.589999999999998,
+                    "apparent_power (kVA)": 53.54666666666666
+                }
+            },
+            "2026-04-08T09:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T09:30:00Z",
+                    "imp_active_energy (kWh)": 31.22,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 124.88,
+                    "reactive_power (kVAR)": -22.08,
+                    "apparent_power (kVA)": 126.8
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T09:30:00Z",
+                    "imp_active_energy (kWh)": 15.190000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 60.76,
+                    "reactive_power (kVAR)": -13.479999999999999,
+                    "apparent_power (kVA)": 62.24
+                }
+            },
+            "2026-04-08T09:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T09:45:00Z",
+                    "imp_active_energy (kWh)": 31.88,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 127.52,
+                    "reactive_power (kVAR)": -22.959999999999997,
+                    "apparent_power (kVA)": 129.6
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T09:45:00Z",
+                    "imp_active_energy (kWh)": 13.629999999999999,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 54.52,
+                    "reactive_power (kVAR)": -14.520000000000001,
+                    "apparent_power (kVA)": 56.44
+                }
+            },
+            "2026-04-08T10:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T10:00:00Z",
+                    "imp_active_energy (kWh)": 31.060000000000002,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 124.37666666666667,
+                    "reactive_power (kVAR)": -22.663333333333338,
+                    "apparent_power (kVA)": 126.42
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T10:00:00Z",
+                    "imp_active_energy (kWh)": 13.600000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 54.46,
+                    "reactive_power (kVAR)": -14.016666666666666,
+                    "apparent_power (kVA)": 56.303333333333335
+                }
+            },
+            "2026-04-08T10:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T10:15:00Z",
+                    "imp_active_energy (kWh)": 30.46,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 121.70333333333333,
+                    "reactive_power (kVAR)": -23.173333333333336,
+                    "apparent_power (kVA)": 123.86333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T10:15:00Z",
+                    "imp_active_energy (kWh)": 13.420000000000002,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 53.620000000000005,
+                    "reactive_power (kVAR)": -14.463333333333333,
+                    "apparent_power (kVA)": 55.54
+                }
+            },
+            "2026-04-08T10:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T10:30:00Z",
+                    "imp_active_energy (kWh)": 30.189999999999998,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 120.89333333333333,
+                    "reactive_power (kVAR)": -23.786666666666665,
+                    "apparent_power (kVA)": 123.21666666666665
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T10:30:00Z",
+                    "imp_active_energy (kWh)": 13.68,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 54.78333333333333,
+                    "reactive_power (kVAR)": -15.256666666666666,
+                    "apparent_power (kVA)": 56.946666666666665
+                }
+            },
+            "2026-04-08T10:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T10:45:00Z",
+                    "imp_active_energy (kWh)": 30.17,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 120.54666666666667,
+                    "reactive_power (kVAR)": -22.933333333333334,
+                    "apparent_power (kVA)": 122.74333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T10:45:00Z",
+                    "imp_active_energy (kWh)": 13.52,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 54.02,
+                    "reactive_power (kVAR)": -14.143333333333333,
+                    "apparent_power (kVA)": 55.85666666666666
+                }
+            },
+            "2026-04-08T11:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T11:00:00Z",
+                    "imp_active_energy (kWh)": 30.049999999999997,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 120.2,
+                    "reactive_power (kVAR)": -22.959999999999997,
+                    "apparent_power (kVA)": 122.48
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T11:00:00Z",
+                    "imp_active_energy (kWh)": 12.74,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 50.96,
+                    "reactive_power (kVAR)": -14.4,
+                    "apparent_power (kVA)": 52.96
+                }
+            },
+            "2026-04-08T11:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T11:15:00Z",
+                    "imp_active_energy (kWh)": 29.0,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 116.0,
+                    "reactive_power (kVAR)": -22.48,
+                    "apparent_power (kVA)": 118.0
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T11:15:00Z",
+                    "imp_active_energy (kWh)": 12.18,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 48.71333333333333,
+                    "reactive_power (kVAR)": -14.200000000000001,
+                    "apparent_power (kVA)": 50.75333333333333
+                }
+            },
+            "2026-04-08T11:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T11:30:00Z",
+                    "imp_active_energy (kWh)": 24.71,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 98.95,
+                    "reactive_power (kVAR)": -22.183333333333334,
+                    "apparent_power (kVA)": 101.43333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T11:30:00Z",
+                    "imp_active_energy (kWh)": 11.95,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 47.803333333333335,
+                    "reactive_power (kVAR)": -14.0,
+                    "apparent_power (kVA)": 49.88666666666666
+                }
+            },
+            "2026-04-08T11:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T11:45:00Z",
+                    "imp_active_energy (kWh)": 23.630000000000003,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 94.41333333333334,
+                    "reactive_power (kVAR)": -21.496666666666666,
+                    "apparent_power (kVA)": 96.77
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T11:45:00Z",
+                    "imp_active_energy (kWh)": 11.64,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 46.56,
+                    "reactive_power (kVAR)": -13.719999999999999,
+                    "apparent_power (kVA)": 48.56
+                }
+            },
+            "2026-04-08T12:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T12:00:00Z",
+                    "imp_active_energy (kWh)": 22.37,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 89.48,
+                    "reactive_power (kVAR)": -21.560000000000002,
+                    "apparent_power (kVA)": 92.04
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T12:00:00Z",
+                    "imp_active_energy (kWh)": 12.23,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 48.919999999999995,
+                    "reactive_power (kVAR)": -13.719999999999999,
+                    "apparent_power (kVA)": 50.800000000000004
+                }
+            },
+            "2026-04-08T12:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T12:15:00Z",
+                    "imp_active_energy (kWh)": 23.66,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 94.74333333333334,
+                    "reactive_power (kVAR)": -21.543333333333333,
+                    "apparent_power (kVA)": 97.22666666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T12:15:00Z",
+                    "imp_active_energy (kWh)": 12.280000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 49.17666666666667,
+                    "reactive_power (kVAR)": -13.533333333333333,
+                    "apparent_power (kVA)": 51.01666666666667
+                }
+            },
+            "2026-04-08T12:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T12:30:00Z",
+                    "imp_active_energy (kWh)": 23.08,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 92.21333333333332,
+                    "reactive_power (kVAR)": -20.97666666666667,
+                    "apparent_power (kVA)": 94.53333333333335
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T12:30:00Z",
+                    "imp_active_energy (kWh)": 12.48,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 49.866666666666674,
+                    "reactive_power (kVAR)": -14.063333333333333,
+                    "apparent_power (kVA)": 51.86333333333334
+                }
+            },
+            "2026-04-08T12:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T12:45:00Z",
+                    "imp_active_energy (kWh)": 22.93,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 91.72000000000001,
+                    "reactive_power (kVAR)": -20.64,
+                    "apparent_power (kVA)": 94.04
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T12:45:00Z",
+                    "imp_active_energy (kWh)": 12.76,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 51.04,
+                    "reactive_power (kVAR)": -14.12,
+                    "apparent_power (kVA)": 53.04
+                }
+            },
+            "2026-04-08T13:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T13:00:00Z",
+                    "imp_active_energy (kWh)": 22.93,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 91.82,
+                    "reactive_power (kVAR)": -20.383333333333333,
+                    "apparent_power (kVA)": 94.02333333333333
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T13:00:00Z",
+                    "imp_active_energy (kWh)": 12.61,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 50.49666666666667,
+                    "reactive_power (kVAR)": -14.896666666666667,
+                    "apparent_power (kVA)": 52.580000000000005
+                }
+            },
+            "2026-04-08T13:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T13:15:00Z",
+                    "imp_active_energy (kWh)": 21.89,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 87.46,
+                    "reactive_power (kVAR)": -20.736666666666665,
+                    "apparent_power (kVA)": 89.89666666666666
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T13:15:00Z",
+                    "imp_active_energy (kWh)": 13.120000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 52.416666666666664,
+                    "reactive_power (kVAR)": -16.223333333333333,
+                    "apparent_power (kVA)": 54.93333333333334
+                }
+            },
+            "2026-04-08T13:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T13:30:00Z",
+                    "imp_active_energy (kWh)": 21.68,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 86.81666666666666,
+                    "reactive_power (kVAR)": -21.583333333333332,
+                    "apparent_power (kVA)": 89.46
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T13:30:00Z",
+                    "imp_active_energy (kWh)": 12.280000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 49.17666666666667,
+                    "reactive_power (kVAR)": -15.053333333333333,
+                    "apparent_power (kVA)": 51.53666666666666
+                }
+            },
+            "2026-04-08T13:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T13:45:00Z",
+                    "imp_active_energy (kWh)": 23.52,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 93.98,
+                    "reactive_power (kVAR)": -21.616666666666664,
+                    "apparent_power (kVA)": 96.45666666666666
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T13:45:00Z",
+                    "imp_active_energy (kWh)": 10.02,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.03,
+                    "reactive_power (kVAR)": -13.226666666666667,
+                    "apparent_power (kVA)": 42.07
+                }
+            },
+            "2026-04-08T14:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T14:00:00Z",
+                    "imp_active_energy (kWh)": 24.95,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 99.8,
+                    "reactive_power (kVAR)": -21.88,
+                    "apparent_power (kVA)": 102.32
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T14:00:00Z",
+                    "imp_active_energy (kWh)": 8.55,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 34.24,
+                    "reactive_power (kVAR)": -12.093333333333334,
+                    "apparent_power (kVA)": 36.36
+                }
+            },
+            "2026-04-08T14:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T14:15:00Z",
+                    "imp_active_energy (kWh)": 24.92,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 99.68,
+                    "reactive_power (kVAR)": -22.2,
+                    "apparent_power (kVA)": 102.0
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T14:15:00Z",
+                    "imp_active_energy (kWh)": 9.05,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 36.160000000000004,
+                    "reactive_power (kVAR)": -12.146666666666667,
+                    "apparent_power (kVA)": 38.196666666666665
+                }
+            },
+            "2026-04-08T14:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T14:30:00Z",
+                    "imp_active_energy (kWh)": 24.68,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 98.83,
+                    "reactive_power (kVAR)": -21.183333333333334,
+                    "apparent_power (kVA)": 101.07333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T14:30:00Z",
+                    "imp_active_energy (kWh)": 9.06,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 36.28,
+                    "reactive_power (kVAR)": -12.093333333333334,
+                    "apparent_power (kVA)": 38.20333333333333
+                }
+            },
+            "2026-04-08T14:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T14:45:00Z",
+                    "imp_active_energy (kWh)": 24.82,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 99.16666666666667,
+                    "reactive_power (kVAR)": -22.736666666666668,
+                    "apparent_power (kVA)": 101.76333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T14:45:00Z",
+                    "imp_active_energy (kWh)": 8.879999999999999,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 35.47666666666667,
+                    "reactive_power (kVAR)": -12.186666666666667,
+                    "apparent_power (kVA)": 37.51666666666667
+                }
+            },
+            "2026-04-08T15:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T15:00:00Z",
+                    "imp_active_energy (kWh)": 24.03,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 96.12,
+                    "reactive_power (kVAR)": -23.040000000000003,
+                    "apparent_power (kVA)": 98.8
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T15:00:00Z",
+                    "imp_active_energy (kWh)": 11.09,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 44.35666666666666,
+                    "reactive_power (kVAR)": -12.24,
+                    "apparent_power (kVA)": 46.04
+                }
+            },
+            "2026-04-08T15:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T15:15:00Z",
+                    "imp_active_energy (kWh)": 24.02,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 96.08,
+                    "reactive_power (kVAR)": -23.0,
+                    "apparent_power (kVA)": 98.83999999999999
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T15:15:00Z",
+                    "imp_active_energy (kWh)": 13.34,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 53.35999999999999,
+                    "reactive_power (kVAR)": -12.799999999999999,
+                    "apparent_power (kVA)": 54.919999999999995
+                }
+            },
+            "2026-04-08T15:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T15:30:00Z",
+                    "imp_active_energy (kWh)": 24.35,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 97.39999999999999,
+                    "reactive_power (kVAR)": -23.319999999999997,
+                    "apparent_power (kVA)": 100.16000000000001
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T15:30:00Z",
+                    "imp_active_energy (kWh)": 12.22,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 48.879999999999995,
+                    "reactive_power (kVAR)": -12.36,
+                    "apparent_power (kVA)": 50.4
+                }
+            },
+            "2026-04-08T15:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T15:45:00Z",
+                    "imp_active_energy (kWh)": 23.7,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 94.8,
+                    "reactive_power (kVAR)": -22.040000000000003,
+                    "apparent_power (kVA)": 97.39999999999999
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T15:45:00Z",
+                    "imp_active_energy (kWh)": 10.67,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 42.68333333333334,
+                    "reactive_power (kVAR)": -11.96,
+                    "apparent_power (kVA)": 44.326666666666675
+                }
+            },
+            "2026-04-08T16:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T16:00:00Z",
+                    "imp_active_energy (kWh)": 23.25,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 93.10333333333334,
+                    "reactive_power (kVAR)": -22.30666666666667,
+                    "apparent_power (kVA)": 95.62666666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T16:00:00Z",
+                    "imp_active_energy (kWh)": 10.29,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 41.20666666666667,
+                    "reactive_power (kVAR)": -12.213333333333333,
+                    "apparent_power (kVA)": 43.00666666666666
+                }
+            },
+            "2026-04-08T16:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T16:15:00Z",
+                    "imp_active_energy (kWh)": 21.1,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 84.30666666666667,
+                    "reactive_power (kVAR)": -20.856666666666666,
+                    "apparent_power (kVA)": 86.86333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T16:15:00Z",
+                    "imp_active_energy (kWh)": 10.31,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 41.193333333333335,
+                    "reactive_power (kVAR)": -11.906666666666666,
+                    "apparent_power (kVA)": 42.87
+                }
+            },
+            "2026-04-08T16:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T16:30:00Z",
+                    "imp_active_energy (kWh)": 21.98,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 87.92,
+                    "reactive_power (kVAR)": -22.403333333333336,
+                    "apparent_power (kVA)": 90.72666666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T16:30:00Z",
+                    "imp_active_energy (kWh)": 10.57,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 42.28666666666667,
+                    "reactive_power (kVAR)": -11.719999999999999,
+                    "apparent_power (kVA)": 43.923333333333325
+                }
+            },
+            "2026-04-08T16:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T16:45:00Z",
+                    "imp_active_energy (kWh)": 20.86,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 83.44,
+                    "reactive_power (kVAR)": -20.52,
+                    "apparent_power (kVA)": 85.96
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T16:45:00Z",
+                    "imp_active_energy (kWh)": 9.91,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 39.64,
+                    "reactive_power (kVAR)": -11.839999999999998,
+                    "apparent_power (kVA)": 41.32
+                }
+            },
+            "2026-04-08T17:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T17:00:00Z",
+                    "imp_active_energy (kWh)": 21.31,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 85.33333333333333,
+                    "reactive_power (kVAR)": -20.94333333333333,
+                    "apparent_power (kVA)": 87.85666666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T17:00:00Z",
+                    "imp_active_energy (kWh)": 9.66,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.68333333333333,
+                    "reactive_power (kVAR)": -11.293333333333331,
+                    "apparent_power (kVA)": 40.32333333333333
+                }
+            },
+            "2026-04-08T17:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T17:15:00Z",
+                    "imp_active_energy (kWh)": 20.21,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 80.75,
+                    "reactive_power (kVAR)": -20.256666666666664,
+                    "apparent_power (kVA)": 83.30666666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T17:15:00Z",
+                    "imp_active_energy (kWh)": 8.71,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 34.8,
+                    "reactive_power (kVAR)": -10.626666666666667,
+                    "apparent_power (kVA)": 36.35666666666666
+                }
+            },
+            "2026-04-08T17:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T17:30:00Z",
+                    "imp_active_energy (kWh)": 19.58,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 78.32,
+                    "reactive_power (kVAR)": -20.8,
+                    "apparent_power (kVA)": 80.96
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T17:30:00Z",
+                    "imp_active_energy (kWh)": 7.54,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 30.16,
+                    "reactive_power (kVAR)": -10.68,
+                    "apparent_power (kVA)": 32.0
+                }
+            },
+            "2026-04-08T17:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T17:45:00Z",
+                    "imp_active_energy (kWh)": 17.18,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 68.72,
+                    "reactive_power (kVAR)": -19.2,
+                    "apparent_power (kVA)": 71.36
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T17:45:00Z",
+                    "imp_active_energy (kWh)": 7.53,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 30.12,
+                    "reactive_power (kVAR)": -10.08,
+                    "apparent_power (kVA)": 31.76
+                }
+            },
+            "2026-04-08T18:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T18:00:00Z",
+                    "imp_active_energy (kWh)": 17.67,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 70.68,
+                    "reactive_power (kVAR)": -19.08,
+                    "apparent_power (kVA)": 73.27999999999999
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T18:00:00Z",
+                    "imp_active_energy (kWh)": 7.5,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 30.0,
+                    "reactive_power (kVAR)": -9.56,
+                    "apparent_power (kVA)": 31.52
+                }
+            },
+            "2026-04-08T18:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T18:15:00Z",
+                    "imp_active_energy (kWh)": 15.15,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 60.656666666666666,
+                    "reactive_power (kVAR)": -18.02,
+                    "apparent_power (kVA)": 63.18
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T18:15:00Z",
+                    "imp_active_energy (kWh)": 7.130000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 28.55333333333333,
+                    "reactive_power (kVAR)": -9.61,
+                    "apparent_power (kVA)": 30.113333333333333
+                }
+            },
+            "2026-04-08T18:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T18:30:00Z",
+                    "imp_active_energy (kWh)": 12.56,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 50.18333333333334,
+                    "reactive_power (kVAR)": -17.7,
+                    "apparent_power (kVA)": 53.22
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T18:30:00Z",
+                    "imp_active_energy (kWh)": 7.07,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 28.25,
+                    "reactive_power (kVAR)": -9.47,
+                    "apparent_power (kVA)": 29.80666666666667
+                }
+            },
+            "2026-04-08T18:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T18:45:00Z",
+                    "imp_active_energy (kWh)": 12.33,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 49.32333333333333,
+                    "reactive_power (kVAR)": -17.400000000000002,
+                    "apparent_power (kVA)": 52.32333333333333
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T18:45:00Z",
+                    "imp_active_energy (kWh)": 6.16,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 24.64,
+                    "reactive_power (kVAR)": -9.88,
+                    "apparent_power (kVA)": 26.560000000000002
+                }
+            },
+            "2026-04-08T19:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T19:00:00Z",
+                    "imp_active_energy (kWh)": 12.219999999999999,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 48.879999999999995,
+                    "reactive_power (kVAR)": -17.2,
+                    "apparent_power (kVA)": 51.800000000000004
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T19:00:00Z",
+                    "imp_active_energy (kWh)": 5.83,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 23.320000000000004,
+                    "reactive_power (kVAR)": -9.24,
+                    "apparent_power (kVA)": 25.080000000000002
+                }
+            },
+            "2026-04-08T19:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T19:15:00Z",
+                    "imp_active_energy (kWh)": 12.22,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 48.93333333333334,
+                    "reactive_power (kVAR)": -16.900000000000002,
+                    "apparent_power (kVA)": 51.73666666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T19:15:00Z",
+                    "imp_active_energy (kWh)": 5.7299999999999995,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 22.94666666666667,
+                    "reactive_power (kVAR)": -9.13,
+                    "apparent_power (kVA)": 24.666666666666668
+                }
+            },
+            "2026-04-08T19:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T19:30:00Z",
+                    "imp_active_energy (kWh)": 12.25,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 48.946666666666665,
+                    "reactive_power (kVAR)": -16.576666666666668,
+                    "apparent_power (kVA)": 51.70333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T19:30:00Z",
+                    "imp_active_energy (kWh)": 5.5200000000000005,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 22.05666666666667,
+                    "reactive_power (kVAR)": -9.91,
+                    "apparent_power (kVA)": 24.173333333333332
+                }
+            },
+            "2026-04-08T19:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T19:45:00Z",
+                    "imp_active_energy (kWh)": 12.14,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 48.56,
+                    "reactive_power (kVAR)": -17.28,
+                    "apparent_power (kVA)": 51.56
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T19:45:00Z",
+                    "imp_active_energy (kWh)": 5.6000000000000005,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 22.400000000000002,
+                    "reactive_power (kVAR)": -9.36,
+                    "apparent_power (kVA)": 24.319999999999997
+                }
+            },
+            "2026-04-08T20:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T20:00:00Z",
+                    "imp_active_energy (kWh)": 12.33,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 49.31999999999999,
+                    "reactive_power (kVAR)": -17.64,
+                    "apparent_power (kVA)": 52.4
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T20:00:00Z",
+                    "imp_active_energy (kWh)": 5.62,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 22.48,
+                    "reactive_power (kVAR)": -9.200000000000001,
+                    "apparent_power (kVA)": 24.28
+                }
+            },
+            "2026-04-08T20:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T20:15:00Z",
+                    "imp_active_energy (kWh)": 11.45,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 45.800000000000004,
+                    "reactive_power (kVAR)": -18.96,
+                    "apparent_power (kVA)": 49.56
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T20:15:00Z",
+                    "imp_active_energy (kWh)": 5.5,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 22.0,
+                    "reactive_power (kVAR)": -9.72,
+                    "apparent_power (kVA)": 24.08
+                }
+            },
+            "2026-04-08T20:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T20:30:00Z",
+                    "imp_active_energy (kWh)": 10.96,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 43.88999999999999,
+                    "reactive_power (kVAR)": -19.183333333333334,
+                    "apparent_power (kVA)": 47.89333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T20:30:00Z",
+                    "imp_active_energy (kWh)": 5.46,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 21.863333333333333,
+                    "reactive_power (kVAR)": -9.13,
+                    "apparent_power (kVA)": 23.706666666666667
+                }
+            },
+            "2026-04-08T20:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T20:45:00Z",
+                    "imp_active_energy (kWh)": 10.23,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.873333333333335,
+                    "reactive_power (kVAR)": -15.983333333333334,
+                    "apparent_power (kVA)": 43.91
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T20:45:00Z",
+                    "imp_active_energy (kWh)": 4.9,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 19.576666666666664,
+                    "reactive_power (kVAR)": -8.99,
+                    "apparent_power (kVA)": 21.536666666666665
+                }
+            },
+            "2026-04-08T21:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T21:00:00Z",
+                    "imp_active_energy (kWh)": 10.01,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.04,
+                    "reactive_power (kVAR)": -16.12,
+                    "apparent_power (kVA)": 43.196666666666665
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T21:00:00Z",
+                    "imp_active_energy (kWh)": 4.75,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 19.0,
+                    "reactive_power (kVAR)": -9.28,
+                    "apparent_power (kVA)": 21.16
+                }
+            },
+            "2026-04-08T21:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T21:15:00Z",
+                    "imp_active_energy (kWh)": 10.01,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.04,
+                    "reactive_power (kVAR)": -16.720000000000002,
+                    "apparent_power (kVA)": 43.35999999999999
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T21:15:00Z",
+                    "imp_active_energy (kWh)": 4.76,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 19.040000000000003,
+                    "reactive_power (kVAR)": -8.92,
+                    "apparent_power (kVA)": 21.04
+                }
+            },
+            "2026-04-08T21:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T21:30:00Z",
+                    "imp_active_energy (kWh)": 10.05,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.24333333333333,
+                    "reactive_power (kVAR)": -16.66,
+                    "apparent_power (kVA)": 43.57
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T21:30:00Z",
+                    "imp_active_energy (kWh)": 4.59,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 18.38,
+                    "reactive_power (kVAR)": -9.57,
+                    "apparent_power (kVA)": 20.743333333333336
+                }
+            },
+            "2026-04-08T21:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T21:45:00Z",
+                    "imp_active_energy (kWh)": 10.21,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.79333333333333,
+                    "reactive_power (kVAR)": -16.74,
+                    "apparent_power (kVA)": 44.10999999999999
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T21:45:00Z",
+                    "imp_active_energy (kWh)": 4.67,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 18.66,
+                    "reactive_power (kVAR)": -9.549999999999999,
+                    "apparent_power (kVA)": 20.936666666666667
+                }
+            },
+            "2026-04-08T22:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T22:00:00Z",
+                    "imp_active_energy (kWh)": 10.15,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.64333333333334,
+                    "reactive_power (kVAR)": -16.86,
+                    "apparent_power (kVA)": 44.01
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T22:00:00Z",
+                    "imp_active_energy (kWh)": 4.8100000000000005,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 19.26,
+                    "reactive_power (kVAR)": -9.049999999999999,
+                    "apparent_power (kVA)": 21.30333333333333
+                }
+            },
+            "2026-04-08T22:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T22:15:00Z",
+                    "imp_active_energy (kWh)": 10.18,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.67333333333333,
+                    "reactive_power (kVAR)": -16.580000000000002,
+                    "apparent_power (kVA)": 43.870000000000005
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T22:15:00Z",
+                    "imp_active_energy (kWh)": 4.67,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 18.66,
+                    "reactive_power (kVAR)": -9.39,
+                    "apparent_power (kVA)": 20.896666666666665
+                }
+            },
+            "2026-04-08T22:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T22:30:00Z",
+                    "imp_active_energy (kWh)": 10.05,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.24333333333333,
+                    "reactive_power (kVAR)": -16.33666666666667,
+                    "apparent_power (kVA)": 43.48666666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T22:30:00Z",
+                    "imp_active_energy (kWh)": 4.69,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 18.779999999999998,
+                    "reactive_power (kVAR)": -9.13,
+                    "apparent_power (kVA)": 20.903333333333332
+                }
+            },
+            "2026-04-08T22:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T22:45:00Z",
+                    "imp_active_energy (kWh)": 10.08,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.276666666666664,
+                    "reactive_power (kVAR)": -16.3,
+                    "apparent_power (kVA)": 43.43333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T22:45:00Z",
+                    "imp_active_energy (kWh)": 4.71,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 18.82,
+                    "reactive_power (kVAR)": -8.87,
+                    "apparent_power (kVA)": 20.776666666666667
+                }
+            },
+            "2026-04-08T23:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T23:00:00Z",
+                    "imp_active_energy (kWh)": 9.74,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.96,
+                    "reactive_power (kVAR)": -15.839999999999998,
+                    "apparent_power (kVA)": 42.04
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T23:00:00Z",
+                    "imp_active_energy (kWh)": 4.68,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 18.72,
+                    "reactive_power (kVAR)": -9.24,
+                    "apparent_power (kVA)": 20.88
+                }
+            },
+            "2026-04-08T23:15:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T23:15:00Z",
+                    "imp_active_energy (kWh)": 9.66,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.64,
+                    "reactive_power (kVAR)": -15.44,
+                    "apparent_power (kVA)": 41.6
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T23:15:00Z",
+                    "imp_active_energy (kWh)": 4.52,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 18.08,
+                    "reactive_power (kVAR)": -8.72,
+                    "apparent_power (kVA)": 20.12
+                }
+            },
+            "2026-04-08T23:30:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T23:30:00Z",
+                    "imp_active_energy (kWh)": 9.57,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.28,
+                    "reactive_power (kVAR)": -15.44,
+                    "apparent_power (kVA)": 41.32
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T23:30:00Z",
+                    "imp_active_energy (kWh)": 4.39,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 17.56,
+                    "reactive_power (kVAR)": -8.6,
+                    "apparent_power (kVA)": 19.52
+                }
+            },
+            "2026-04-08T23:45:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T23:45:00Z",
+                    "imp_active_energy (kWh)": 9.58,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.32,
+                    "reactive_power (kVAR)": -15.44,
+                    "apparent_power (kVA)": 41.28
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T23:45:00Z",
+                    "imp_active_energy (kWh)": 4.199999999999999,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.8,
+                    "reactive_power (kVAR)": -9.040000000000001,
+                    "apparent_power (kVA)": 19.08
+                }
+            }
+        },
+        "1h": {
+            "2026-04-08T00:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T00:00:00Z",
+                    "imp_active_energy (kWh)": 39.63999999999999,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 39.65083333333334,
+                    "reactive_power (kVAR)": -16.024166666666666,
+                    "apparent_power (kVA)": 42.76166666666666
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T00:00:00Z",
+                    "imp_active_energy (kWh)": 16.54,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.544166666666666,
+                    "reactive_power (kVAR)": -8.8025,
+                    "apparent_power (kVA)": 18.745
+                }
+            },
+            "2026-04-08T01:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T01:00:00Z",
+                    "imp_active_energy (kWh)": 39.019999999999996,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 39.00916666666667,
+                    "reactive_power (kVAR)": -15.665833333333333,
+                    "apparent_power (kVA)": 42.05833333333333
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T01:00:00Z",
+                    "imp_active_energy (kWh)": 16.82,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.815833333333334,
+                    "reactive_power (kVAR)": -8.6675,
+                    "apparent_power (kVA)": 18.935
+                }
+            },
+            "2026-04-08T02:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T02:00:00Z",
+                    "imp_active_energy (kWh)": 38.01,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.009166666666665,
+                    "reactive_power (kVAR)": -14.76,
+                    "apparent_power (kVA)": 40.760000000000005
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T02:00:00Z",
+                    "imp_active_energy (kWh)": 16.55,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.548333333333332,
+                    "reactive_power (kVAR)": -8.62,
+                    "apparent_power (kVA)": 18.68
+                }
+            },
+            "2026-04-08T03:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T03:00:00Z",
+                    "imp_active_energy (kWh)": 37.79,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 37.78999999999999,
+                    "reactive_power (kVAR)": -14.91,
+                    "apparent_power (kVA)": 40.620000000000005
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T03:00:00Z",
+                    "imp_active_energy (kWh)": 16.43,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.429166666666667,
+                    "reactive_power (kVAR)": -8.67,
+                    "apparent_power (kVA)": 18.599999999999998
+                }
+            },
+            "2026-04-08T04:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T04:00:00Z",
+                    "imp_active_energy (kWh)": 37.9,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 37.9,
+                    "reactive_power (kVAR)": -14.98,
+                    "apparent_power (kVA)": 40.760000000000005
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T04:00:00Z",
+                    "imp_active_energy (kWh)": 16.54,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.54083333333333,
+                    "reactive_power (kVAR)": -8.719999999999999,
+                    "apparent_power (kVA)": 18.709999999999997
+                }
+            },
+            "2026-04-08T05:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T05:00:00Z",
+                    "imp_active_energy (kWh)": 38.44,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.44,
+                    "reactive_power (kVAR)": -15.09,
+                    "apparent_power (kVA)": 41.3
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T05:00:00Z",
+                    "imp_active_energy (kWh)": 16.65,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.649166666666666,
+                    "reactive_power (kVAR)": -8.68,
+                    "apparent_power (kVA)": 18.79
+                }
+            },
+            "2026-04-08T06:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T06:00:00Z",
+                    "imp_active_energy (kWh)": 64.0,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 63.996666666666655,
+                    "reactive_power (kVAR)": -22.279166666666665,
+                    "apparent_power (kVA)": 67.86666666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T06:00:00Z",
+                    "imp_active_energy (kWh)": 24.479999999999997,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 24.479166666666668,
+                    "reactive_power (kVAR)": -9.709166666666667,
+                    "apparent_power (kVA)": 26.42
+                }
+            },
+            "2026-04-08T07:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T07:00:00Z",
+                    "imp_active_energy (kWh)": 86.68,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 86.67833333333333,
+                    "reactive_power (kVAR)": -21.800833333333333,
+                    "apparent_power (kVA)": 89.50916666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T07:00:00Z",
+                    "imp_active_energy (kWh)": 36.93,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 36.93,
+                    "reactive_power (kVAR)": -10.41,
+                    "apparent_power (kVA)": 38.399166666666666
+                }
+            },
+            "2026-04-08T08:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T08:00:00Z",
+                    "imp_active_energy (kWh)": 111.07000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 111.07000000000001,
+                    "reactive_power (kVAR)": -21.26,
+                    "apparent_power (kVA)": 113.07916666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T08:00:00Z",
+                    "imp_active_energy (kWh)": 43.15,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 43.1525,
+                    "reactive_power (kVAR)": -10.500833333333333,
+                    "apparent_power (kVA)": 44.43166666666667
+                }
+            },
+            "2026-04-08T09:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T09:00:00Z",
+                    "imp_active_energy (kWh)": 120.52,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 120.51666666666667,
+                    "reactive_power (kVAR)": -21.599166666666665,
+                    "apparent_power (kVA)": 122.45666666666668
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T09:00:00Z",
+                    "imp_active_energy (kWh)": 54.05,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 54.050000000000004,
+                    "reactive_power (kVAR)": -12.500833333333333,
+                    "apparent_power (kVA)": 55.51
+                }
+            },
+            "2026-04-08T10:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T10:00:00Z",
+                    "imp_active_energy (kWh)": 121.88000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 121.88,
+                    "reactive_power (kVAR)": -23.139166666666668,
+                    "apparent_power (kVA)": 124.06083333333333
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T10:00:00Z",
+                    "imp_active_energy (kWh)": 54.22,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 54.22083333333334,
+                    "reactive_power (kVAR)": -14.469999999999999,
+                    "apparent_power (kVA)": 56.16166666666666
+                }
+            },
+            "2026-04-08T11:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T11:00:00Z",
+                    "imp_active_energy (kWh)": 107.38999999999999,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 107.39083333333333,
+                    "reactive_power (kVAR)": -22.28,
+                    "apparent_power (kVA)": 109.67083333333333
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T11:00:00Z",
+                    "imp_active_energy (kWh)": 48.510000000000005,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 48.509166666666665,
+                    "reactive_power (kVAR)": -14.08,
+                    "apparent_power (kVA)": 50.54
+                }
+            },
+            "2026-04-08T12:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T12:00:00Z",
+                    "imp_active_energy (kWh)": 92.03999999999999,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 92.03916666666667,
+                    "reactive_power (kVAR)": -21.180000000000003,
+                    "apparent_power (kVA)": 94.46000000000001
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T12:00:00Z",
+                    "imp_active_energy (kWh)": 49.75,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 49.75083333333333,
+                    "reactive_power (kVAR)": -13.859166666666665,
+                    "apparent_power (kVA)": 51.68
+                }
+            },
+            "2026-04-08T13:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T13:00:00Z",
+                    "imp_active_energy (kWh)": 90.02,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 90.01916666666666,
+                    "reactive_power (kVAR)": -21.08,
+                    "apparent_power (kVA)": 92.45916666666666
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T13:00:00Z",
+                    "imp_active_energy (kWh)": 48.03,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 48.03,
+                    "reactive_power (kVAR)": -14.85,
+                    "apparent_power (kVA)": 50.28
+                }
+            },
+            "2026-04-08T14:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T14:00:00Z",
+                    "imp_active_energy (kWh)": 99.37,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 99.36916666666667,
+                    "reactive_power (kVAR)": -22.0,
+                    "apparent_power (kVA)": 101.78916666666666
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T14:00:00Z",
+                    "imp_active_energy (kWh)": 35.540000000000006,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 35.53916666666667,
+                    "reactive_power (kVAR)": -12.13,
+                    "apparent_power (kVA)": 37.56916666666667
+                }
+            },
+            "2026-04-08T15:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T15:00:00Z",
+                    "imp_active_energy (kWh)": 96.10000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 96.1,
+                    "reactive_power (kVAR)": -22.85,
+                    "apparent_power (kVA)": 98.8
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T15:00:00Z",
+                    "imp_active_energy (kWh)": 47.32,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 47.31999999999999,
+                    "reactive_power (kVAR)": -12.34,
+                    "apparent_power (kVA)": 48.92166666666667
+                }
+            },
+            "2026-04-08T16:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T16:00:00Z",
+                    "imp_active_energy (kWh)": 87.19,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 87.19250000000001,
+                    "reactive_power (kVAR)": -21.521666666666665,
+                    "apparent_power (kVA)": 89.79416666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T16:00:00Z",
+                    "imp_active_energy (kWh)": 41.08,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 41.08166666666666,
+                    "reactive_power (kVAR)": -11.919999999999998,
+                    "apparent_power (kVA)": 42.779999999999994
+                }
+            },
+            "2026-04-08T17:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T17:00:00Z",
+                    "imp_active_energy (kWh)": 78.28,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 78.28083333333333,
+                    "reactive_power (kVAR)": -20.3,
+                    "apparent_power (kVA)": 80.87083333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T17:00:00Z",
+                    "imp_active_energy (kWh)": 33.44,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 33.44083333333333,
+                    "reactive_power (kVAR)": -10.669999999999998,
+                    "apparent_power (kVA)": 35.11
+                }
+            },
+            "2026-04-08T18:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T18:00:00Z",
+                    "imp_active_energy (kWh)": 57.71,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 57.71083333333333,
+                    "reactive_power (kVAR)": -18.05,
+                    "apparent_power (kVA)": 60.500833333333325
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T18:00:00Z",
+                    "imp_active_energy (kWh)": 27.860000000000003,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 27.860833333333332,
+                    "reactive_power (kVAR)": -9.63,
+                    "apparent_power (kVA)": 29.5
+                }
+            },
+            "2026-04-08T19:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T19:00:00Z",
+                    "imp_active_energy (kWh)": 48.83,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 48.83,
+                    "reactive_power (kVAR)": -16.98916666666667,
+                    "apparent_power (kVA)": 51.7
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T19:00:00Z",
+                    "imp_active_energy (kWh)": 22.68,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 22.680833333333336,
+                    "reactive_power (kVAR)": -9.41,
+                    "apparent_power (kVA)": 24.56
+                }
+            },
+            "2026-04-08T20:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T20:00:00Z",
+                    "imp_active_energy (kWh)": 44.97,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 44.97083333333333,
+                    "reactive_power (kVAR)": -17.941666666666666,
+                    "apparent_power (kVA)": 48.44083333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T20:00:00Z",
+                    "imp_active_energy (kWh)": 21.480000000000004,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 21.48,
+                    "reactive_power (kVAR)": -9.260000000000002,
+                    "apparent_power (kVA)": 23.40083333333333
+                }
+            },
+            "2026-04-08T21:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T21:00:00Z",
+                    "imp_active_energy (kWh)": 40.28,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.27916666666666,
+                    "reactive_power (kVAR)": -16.56,
+                    "apparent_power (kVA)": 43.55916666666666
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T21:00:00Z",
+                    "imp_active_energy (kWh)": 18.77,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 18.77,
+                    "reactive_power (kVAR)": -9.33,
+                    "apparent_power (kVA)": 20.970000000000002
+                }
+            },
+            "2026-04-08T22:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T22:00:00Z",
+                    "imp_active_energy (kWh)": 40.46,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.45916666666667,
+                    "reactive_power (kVAR)": -16.519166666666667,
+                    "apparent_power (kVA)": 43.7
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T22:00:00Z",
+                    "imp_active_energy (kWh)": 18.880000000000003,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 18.880000000000003,
+                    "reactive_power (kVAR)": -9.11,
+                    "apparent_power (kVA)": 20.97
+                }
+            },
+            "2026-04-08T23:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T23:00:00Z",
+                    "imp_active_energy (kWh)": 38.55,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.55,
+                    "reactive_power (kVAR)": -15.54,
+                    "apparent_power (kVA)": 41.56
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T23:00:00Z",
+                    "imp_active_energy (kWh)": 17.79,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 17.79,
+                    "reactive_power (kVAR)": -8.9,
+                    "apparent_power (kVA)": 19.9
+                }
+            }
+        },
+        "3h": {
+            "2026-04-08T00:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T00:00:00Z",
+                    "imp_active_energy (kWh)": 116.67,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.889722222222225,
+                    "reactive_power (kVAR)": -15.483333333333329,
+                    "apparent_power (kVA)": 41.86
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T00:00:00Z",
+                    "imp_active_energy (kWh)": 49.910000000000004,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.63611111111111,
+                    "reactive_power (kVAR)": -8.696666666666665,
+                    "apparent_power (kVA)": 18.786666666666665
+                }
+            },
+            "2026-04-08T03:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T03:00:00Z",
+                    "imp_active_energy (kWh)": 114.13,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 38.04333333333333,
+                    "reactive_power (kVAR)": -14.993333333333334,
+                    "apparent_power (kVA)": 40.89333333333334
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T03:00:00Z",
+                    "imp_active_energy (kWh)": 49.620000000000005,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 16.539722222222224,
+                    "reactive_power (kVAR)": -8.69,
+                    "apparent_power (kVA)": 18.7
+                }
+            },
+            "2026-04-08T06:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T06:00:00Z",
+                    "imp_active_energy (kWh)": 261.75,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 87.24833333333333,
+                    "reactive_power (kVAR)": -21.78,
+                    "apparent_power (kVA)": 90.15166666666669
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T06:00:00Z",
+                    "imp_active_energy (kWh)": 104.56,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 34.85388888888889,
+                    "reactive_power (kVAR)": -10.206666666666665,
+                    "apparent_power (kVA)": 36.41694444444445
+                }
+            },
+            "2026-04-08T09:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T09:00:00Z",
+                    "imp_active_energy (kWh)": 349.78999999999996,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 116.59583333333335,
+                    "reactive_power (kVAR)": -22.339444444444442,
+                    "apparent_power (kVA)": 118.72944444444444
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T09:00:00Z",
+                    "imp_active_energy (kWh)": 156.77999999999997,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 52.25999999999999,
+                    "reactive_power (kVAR)": -13.68361111111111,
+                    "apparent_power (kVA)": 54.07055555555555
+                }
+            },
+            "2026-04-08T12:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T12:00:00Z",
+                    "imp_active_energy (kWh)": 281.43,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 93.80916666666667,
+                    "reactive_power (kVAR)": -21.42,
+                    "apparent_power (kVA)": 96.2361111111111
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T12:00:00Z",
+                    "imp_active_energy (kWh)": 133.32,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 44.440000000000005,
+                    "reactive_power (kVAR)": -13.613055555555555,
+                    "apparent_power (kVA)": 46.50972222222222
+                }
+            },
+            "2026-04-08T15:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T15:00:00Z",
+                    "imp_active_energy (kWh)": 261.57000000000005,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 87.19111111111111,
+                    "reactive_power (kVAR)": -21.557222222222222,
+                    "apparent_power (kVA)": 89.82166666666667
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T15:00:00Z",
+                    "imp_active_energy (kWh)": 121.84000000000002,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 40.61416666666667,
+                    "reactive_power (kVAR)": -11.643333333333333,
+                    "apparent_power (kVA)": 42.27055555555555
+                }
+            },
+            "2026-04-08T18:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T18:00:00Z",
+                    "imp_active_energy (kWh)": 151.51,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 50.50388888888889,
+                    "reactive_power (kVAR)": -17.66027777777778,
+                    "apparent_power (kVA)": 53.54722222222222
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T18:00:00Z",
+                    "imp_active_energy (kWh)": 72.02000000000001,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 24.00722222222222,
+                    "reactive_power (kVAR)": -9.433333333333334,
+                    "apparent_power (kVA)": 25.82027777777778
+                }
+            },
+            "2026-04-08T21:00:00Z": {
+                "PTA": {
+                    "pt_id": "PTA",
+                    "datetime": "2026-04-08T21:00:00Z",
+                    "imp_active_energy (kWh)": 119.28999999999998,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 39.76277777777777,
+                    "reactive_power (kVAR)": -16.20638888888889,
+                    "apparent_power (kVA)": 42.93972222222223
+                },
+                "PTB": {
+                    "pt_id": "PTB",
+                    "datetime": "2026-04-08T21:00:00Z",
+                    "imp_active_energy (kWh)": 55.44,
+                    "exp_active_energy (kWh)": 0.0,
+                    "active_power (kW)": 18.48,
+                    "reactive_power (kVAR)": -9.113333333333333,
+                    "apparent_power (kVA)": 20.613333333333333
+                }
+            }
+        }
+    },
+    "forecast": [
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T00:00:00Z",
+            "active_power": 59.07472229003906
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T00:15:00Z",
+            "active_power": 59.07472229003906
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T00:30:00Z",
+            "active_power": 59.24724197387695
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T00:45:00Z",
+            "active_power": 59.24724197387695
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T01:00:00Z",
+            "active_power": 59.24724197387695
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T01:15:00Z",
+            "active_power": 59.24724197387695
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T01:30:00Z",
+            "active_power": 59.63280487060547
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T01:45:00Z",
+            "active_power": 59.375301361083984
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T02:00:00Z",
+            "active_power": 59.24724197387695
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T02:15:00Z",
+            "active_power": 59.07472229003906
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T02:30:00Z",
+            "active_power": 59.07472229003906
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T02:45:00Z",
+            "active_power": 59.07472229003906
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T03:00:00Z",
+            "active_power": 59.24724197387695
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T03:15:00Z",
+            "active_power": 59.06057357788086
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T03:30:00Z",
+            "active_power": 59.02146530151367
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T03:45:00Z",
+            "active_power": 59.46027755737305
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T04:00:00Z",
+            "active_power": 59.46027755737305
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T04:15:00Z",
+            "active_power": 59.035614013671875
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T04:30:00Z",
+            "active_power": 59.02146530151367
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T04:45:00Z",
+            "active_power": 59.23309326171875
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T05:00:00Z",
+            "active_power": 59.375301361083984
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T05:15:00Z",
+            "active_power": 59.36115264892578
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T05:30:00Z",
+            "active_power": 60.709815979003906
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T05:45:00Z",
+            "active_power": 61.53199005126953
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T06:00:00Z",
+            "active_power": 66.1662826538086
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T06:15:00Z",
+            "active_power": 81.70450592041016
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T06:30:00Z",
+            "active_power": 102.05361938476562
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T06:45:00Z",
+            "active_power": 124.61697387695312
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T07:00:00Z",
+            "active_power": 116.31974792480469
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T07:15:00Z",
+            "active_power": 119.55725860595703
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T07:30:00Z",
+            "active_power": 134.83636474609375
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T07:45:00Z",
+            "active_power": 147.56024169921875
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T08:00:00Z",
+            "active_power": 147.39744567871094
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T08:15:00Z",
+            "active_power": 155.1925048828125
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T08:30:00Z",
+            "active_power": 156.57386779785156
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T08:45:00Z",
+            "active_power": 160.33880615234375
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T09:00:00Z",
+            "active_power": 173.0052032470703
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T09:15:00Z",
+            "active_power": 166.41651916503906
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T09:30:00Z",
+            "active_power": 167.07583618164062
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T09:45:00Z",
+            "active_power": 164.8815460205078
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T10:00:00Z",
+            "active_power": 162.40419006347656
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T10:15:00Z",
+            "active_power": 159.634033203125
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T10:30:00Z",
+            "active_power": 157.8046417236328
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T10:45:00Z",
+            "active_power": 149.4559783935547
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T11:00:00Z",
+            "active_power": 147.17457580566406
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T11:15:00Z",
+            "active_power": 148.45245361328125
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T11:30:00Z",
+            "active_power": 144.687744140625
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T11:45:00Z",
+            "active_power": 140.1581573486328
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T12:00:00Z",
+            "active_power": 138.4365997314453
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T12:15:00Z",
+            "active_power": 139.16229248046875
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T12:30:00Z",
+            "active_power": 134.12925720214844
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T12:45:00Z",
+            "active_power": 132.5478057861328
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T13:00:00Z",
+            "active_power": 148.23057556152344
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T13:15:00Z",
+            "active_power": 148.3615264892578
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T13:30:00Z",
+            "active_power": 150.86309814453125
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T13:45:00Z",
+            "active_power": 150.06878662109375
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T14:00:00Z",
+            "active_power": 149.6121826171875
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T14:15:00Z",
+            "active_power": 151.65847778320312
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T14:30:00Z",
+            "active_power": 147.23304748535156
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T14:45:00Z",
+            "active_power": 146.3782196044922
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T15:00:00Z",
+            "active_power": 150.2905731201172
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T15:15:00Z",
+            "active_power": 146.9395294189453
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T15:30:00Z",
+            "active_power": 146.1979217529297
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T15:45:00Z",
+            "active_power": 145.92210388183594
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T16:00:00Z",
+            "active_power": 146.75631713867188
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T16:15:00Z",
+            "active_power": 143.83004760742188
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T16:30:00Z",
+            "active_power": 142.91159057617188
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T16:45:00Z",
+            "active_power": 141.41319274902344
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T17:00:00Z",
+            "active_power": 141.7607421875
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T17:15:00Z",
+            "active_power": 139.3618621826172
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T17:30:00Z",
+            "active_power": 138.794677734375
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T17:45:00Z",
+            "active_power": 137.68856811523438
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T18:00:00Z",
+            "active_power": 136.05105590820312
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T18:15:00Z",
+            "active_power": 127.95679473876953
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T18:30:00Z",
+            "active_power": 108.16576385498047
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T18:45:00Z",
+            "active_power": 95.79769897460938
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T19:00:00Z",
+            "active_power": 67.01210021972656
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T19:15:00Z",
+            "active_power": 64.27439880371094
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T19:30:00Z",
+            "active_power": 64.18915557861328
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T19:45:00Z",
+            "active_power": 64.20589447021484
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T20:00:00Z",
+            "active_power": 62.759212493896484
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T20:15:00Z",
+            "active_power": 61.103275299072266
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T20:30:00Z",
+            "active_power": 60.49671173095703
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T20:45:00Z",
+            "active_power": 58.88500213623047
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T21:00:00Z",
+            "active_power": 58.71770095825195
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T21:15:00Z",
+            "active_power": 58.928401947021484
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T21:30:00Z",
+            "active_power": 58.885894775390625
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T21:45:00Z",
+            "active_power": 58.87662124633789
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T22:00:00Z",
+            "active_power": 59.021820068359375
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T22:15:00Z",
+            "active_power": 58.561424255371094
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T22:30:00Z",
+            "active_power": 58.12862014770508
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T22:45:00Z",
+            "active_power": 58.23900604248047
+        },
+        {
+            "pt_id": "Total",
+            "datetime": "2026-04-08T23:00:00Z",
+            "active_power": 58.20082092285156
+        }
+    ]
+}
