@@ -145,11 +145,11 @@ export default function Top() {
       <Toolbar>
         {mobileDevice ? (
           <Box sx={{ display: 'flex', alignItems: 'center', mr: 1 }}>
-            <Image src="/logo1.png" alt="Logo" width={42} height={42} style={{ objectFit: 'contain' }} />
+            <Image src="/energy/logo1.png" alt="Logo" width={42} height={42} style={{ objectFit: 'contain' }} />
           </Box>
         ) : (
           <Box sx={{ display: 'flex', alignItems: 'center', mr: 1 }}>
-            <Image src="/logo.png" alt="Logo" width={140} height={60} style={{ objectFit: 'contain' }} />
+            <Image src="/energy/logo.png" alt="Logo" width={140} height={60} style={{ objectFit: 'contain' }} />
           </Box>
         )}
 

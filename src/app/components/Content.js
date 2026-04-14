@@ -14,17 +14,17 @@ import { useRouter } from 'next/navigation';
 const BOTTOM_NAV_HEIGHT = 56;
 
 const PAGES = [
-  { title: 'Tomorrow',      href: '/pages/Tomorrow',    img: '/screenshot/tomorrow.jpg' },
-  { title: 'Today',         href: '/pages/Today',       img: '/screenshot/today.jpg' },
-  { title: 'Yesterday',     href: '/pages/Yesterday',   img: '/screenshot/yesterday.jpg' },
-  { title: 'Week',   href: '/pages/Week',        img: '/screenshot/week.jpg' },
-  { title: 'Month',  href: '/pages/Month',       img: '/screenshot/month.jpg' },
-  { title: 'Grouped Day',  href: '/pages/GroupedDay',  img: '/screenshot/groupedday.jpg' },
-  { title: 'Grouped Month',href: '/pages/GroupedMonth',img: '/screenshot/groupedmonth.jpg' },
-  { title: 'Grouped Year',  href: '/pages/GroupedYear', img: '/screenshot/groupedyear.jpg' },
-  { title: 'One Day',      href: '/pages/OneDay',       img: '/screenshot/oneday.jpg' },
-  { title: 'One Month',      href: '/pages/OneMonth',   img: '/screenshot/onemonth.jpg' },
-  { title: 'One Year',     href: '/pages/OneYear',      img: '/screenshot/oneyear.jpg' },
+  { title: 'Tomorrow',      href: '/pages/Tomorrow',    img: '/energy/screenshot/tomorrow.jpg' },
+  { title: 'Today',         href: '/pages/Today',       img: '/energy/screenshot/today.jpg' },
+  { title: 'Yesterday',     href: '/pages/Yesterday',   img: '/energy/screenshot/yesterday.jpg' },
+  { title: 'Week',   href: '/pages/Week',        img: '/energy/screenshot/week.jpg' },
+  { title: 'Month',  href: '/pages/Month',       img: '/energy/screenshot/month.jpg' },
+  { title: 'Grouped Day',  href: '/pages/GroupedDay',  img: '/energy/screenshot/groupedday.jpg' },
+  { title: 'Grouped Month',href: '/pages/GroupedMonth',img: '/energy/screenshot/groupedmonth.jpg' },
+  { title: 'Grouped Year',  href: '/pages/GroupedYear', img: '/energy/screenshot/groupedyear.jpg' },
+  { title: 'One Day',      href: '/pages/OneDay',       img: '/energy/screenshot/oneday.jpg' },
+  { title: 'One Month',      href: '/pages/OneMonth',   img: '/energy/screenshot/onemonth.jpg' },
+  { title: 'One Year',     href: '/pages/OneYear',      img: '/energy/screenshot/oneyear.jpg' },
 ];
 
 export default function Content({ children }) {
