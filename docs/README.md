@@ -33,7 +33,6 @@ npm i -S echarts
 
 npm i -D gh-pages
 
-npm run predeploy
 npm run deploy
 
 -- Create Files
@@ -45,8 +44,6 @@ gh-pages/_next/.nojekyll
 
 -- Commands
 
-npm run format
-npm run lint
 npm run build
 npm run deploy
 
