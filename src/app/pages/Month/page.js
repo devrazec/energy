@@ -4,6 +4,7 @@ import React, { useState, useContext, useMemo, useEffect } from 'react';
 import { GlobalContext } from '../../context/GlobalContext';
 import Layout from '../../components/Layout';
 import ReactECharts from 'echarts-for-react';
+import { useLoading } from '../../hooks/useLoading';
 
 const INTERVALS = ['15min', '1h', '3h'];
 const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -23,6 +24,21 @@ export default function MonthPage() {
 
     const [interval, setInterval] = useState('15min');
     const [loading, setLoading] = useState(false);
+    const { showLoading, hideLoading } = useLoading();
+
+    // Show loading on page mount
+    useEffect(() => {
+        showLoading();
+        const timer = setTimeout(() => hideLoading(), 800);
+        return () => clearTimeout(timer);
+    }, []);
+
+    // Show loading when interval changes
+    useEffect(() => {
+        showLoading();
+        const timer = setTimeout(() => hideLoading(), 500);
+        return () => clearTimeout(timer);
+    }, [interval]);
 
     useEffect(() => {
         setLoading(true);

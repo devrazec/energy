@@ -5,6 +5,7 @@ import { GlobalContext } from '../../context/GlobalContext';
 import Layout from '../../components/Layout';
 import ReactECharts from 'echarts-for-react';
 import dayjs from 'dayjs';
+import { useLoading } from '../../hooks/useLoading';
 
 const INTERVALS = ['15min', '1h', '3h'];
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -25,6 +26,21 @@ export default function OneDayPage() {
 
     const [interval, setInterval] = useState('15min');
     const [loading, setLoading] = useState(false);
+    const { showLoading, hideLoading } = useLoading();
+
+    // Show loading on page mount
+    useEffect(() => {
+        showLoading();
+        const timer = setTimeout(() => hideLoading(), 800);
+        return () => clearTimeout(timer);
+    }, []);
+
+    // Show loading when interval changes
+    useEffect(() => {
+        showLoading();
+        const timer = setTimeout(() => hideLoading(), 500);
+        return () => clearTimeout(timer);
+    }, [interval]);
 
     const chartOption = useMemo(() => {
         const measurements = dbOneDay?.measurements?.[interval] ?? {};

@@ -23,6 +23,7 @@ export const GlobalContext = createContext();
 export function GlobalProvider({ children }) {
   const [darkMode, setDarkMode] = useState(false);
   const [mobileDevice, setMobileDevice] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const [dbTomorrow, setDbTomorrow] = useState(tomorrowJson);
   const [dbToday, setDbToday] = useState(todayJson);
@@ -51,6 +52,8 @@ export function GlobalProvider({ children }) {
         setDarkMode,
         mobileDevice,
         setMobileDevice,
+        isLoading,
+        setIsLoading,
 
         dbToday,
         setDbToday,

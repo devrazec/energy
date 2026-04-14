@@ -1,9 +1,10 @@
 'use client';
 
-import React, { useState, useContext, useMemo } from 'react';
+import React, { useState, useContext, useMemo, useEffect } from 'react';
 import { GlobalContext } from '../../context/GlobalContext';
 import Layout from '../../components/Layout';
 import ReactECharts from 'echarts-for-react';
+import { useLoading } from '../../hooks/useLoading';
 
 const INTERVALS = ['15min', '1h', '3h'];
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -20,7 +21,23 @@ export default function TodayPage() {
 
     } = useContext(GlobalContext);
 
+    const { showLoading, hideLoading } = useLoading();
+
     const [interval, setInterval] = useState('15min');
+
+    // Show loading on page mount
+    useEffect(() => {
+        showLoading();
+        const timer = setTimeout(() => hideLoading(), 800);
+        return () => clearTimeout(timer);
+    }, []);
+
+    // Show loading when interval changes
+    useEffect(() => {
+        showLoading();
+        const timer = setTimeout(() => hideLoading(), 500);
+        return () => clearTimeout(timer);
+    }, [interval]);
 
     const chartOption = useMemo(() => {
         const measurements = dbToday?.measurements?.[interval] ?? {};
