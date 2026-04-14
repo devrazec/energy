@@ -1,7 +1,7 @@
 'use client';
 
 import { useContext, useState, useRef, useEffect } from 'react';
-import { usePathname, useRouter } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { GlobalContext } from '../context/GlobalContext';
 import dayjs from 'dayjs';
 import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
@@ -66,12 +66,20 @@ const SHORTCUTS = [
 export default function Top() {
   const { darkMode, setDarkMode, mobileDevice, selectedDate,
         setSelectedDate, selectedMonth, setSelectedMonth,
-        selectedYear, setSelectedYear, } = useContext(GlobalContext);
-  const pathname = usePathname();
+        selectedYear, setSelectedYear, currentUrl } = useContext(GlobalContext);
   const router = useRouter();
   const anchorRef = useRef(null);
 
-  const isHome = pathname === '/';
+  // Extract only the last part of the URL
+  const getLastSegment = (url) => {
+    if (url === '/') return '/';
+    const segments = url.split('/').filter(Boolean);
+    return segments[segments.length - 1];
+  };
+  
+  const currentSegment = getLastSegment(currentUrl);
+
+  const isHome = currentUrl === '/';
   const showBackArrow = !isHome && mobileDevice;
 
   const [open, setOpen] = useState(false);
@@ -91,34 +99,34 @@ export default function Top() {
     router.push(shortcut.route);
   };
 
-  const isOneDay = pathname === '/pages/OneDay';
-  const isSingleDay = isOneDay || pathname === '/pages/Yesterday' || pathname === '/pages/Tomorrow' || pathname === '/pages/Today';
-  const isMonthYearPage = pathname === '/pages/OneMonth';
-  const isYearPage = pathname === '/pages/OneYear';
+  const isOneDay = currentSegment === 'OneDay';
+  const isSingleDay = isOneDay || currentSegment === 'Yesterday' || currentSegment === 'Tomorrow' || currentSegment === 'Today';
+  const isMonthYearPage = currentSegment === 'OneMonth';
+  const isYearPage = currentSegment === 'OneYear';
 
   useEffect(() => {
-    if (pathname === '/pages/Yesterday') {
+    if (currentSegment === 'Yesterday') {
       setSelectedDate(dayjs().subtract(1, 'day'));
-    } else if (pathname === '/pages/Tomorrow') {
+    } else if (currentSegment === 'Tomorrow') {
       setSelectedDate(dayjs().add(1, 'day'));
-    } else if (pathname === '/pages/Today') {
+    } else if (currentSegment === 'Today') {
       setSelectedDate(dayjs());
-    } else if (pathname === '/pages/Month') {
+    } else if (currentSegment === 'Month') {
       const end = new Date();
       const start = new Date();
       start.setDate(end.getDate() - 30);
       setRange([{ startDate: start, endDate: end, key: 'selection' }]);
-    } else if (pathname === '/pages/OneMonth') {
+    } else if (currentSegment === 'OneMonth') {
       setSelectedMonth(dayjs());
-    } else if (pathname === '/pages/OneYear') {
+    } else if (currentSegment === 'OneYear') {
       setSelectedYear(dayjs());
-    } else if (pathname === '/pages/Week') {
+    } else if (currentSegment === 'Week') {
       const end = new Date();
       const start = new Date();
       start.setDate(end.getDate() - 7);
       setRange([{ startDate: start, endDate: end, key: 'selection' }]);
     }
-  }, [pathname]);
+  }, [currentSegment]);
 
   const displayRanges = isSingleDay && selectedDate?.isValid()
     ? [{ startDate: selectedDate.toDate(), endDate: selectedDate.toDate(), key: 'selection' }]
@@ -185,7 +193,8 @@ export default function Top() {
                 gap: mobileDevice ? 0.5 : 0,
               }}>
                 {SHORTCUTS.map((s) => {
-                  const isActive = pathname === s.route;
+                  const shortcutSegment = s.route === '/' ? '/' : s.route.split('/').filter(Boolean).pop();
+                  const isActive = currentSegment === shortcutSegment;
                   return (
                     <Button
                       key={s.label}

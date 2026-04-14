@@ -24,6 +24,7 @@ export function GlobalProvider({ children }) {
   const [darkMode, setDarkMode] = useState(false);
   const [mobileDevice, setMobileDevice] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [currentUrl, setCurrentUrl] = useState('/');
 
   const [dbTomorrow, setDbTomorrow] = useState(tomorrowJson);
   const [dbToday, setDbToday] = useState(todayJson);
@@ -54,6 +55,8 @@ export function GlobalProvider({ children }) {
         setMobileDevice,
         isLoading,
         setIsLoading,
+        currentUrl,
+        setCurrentUrl,
 
         dbToday,
         setDbToday,

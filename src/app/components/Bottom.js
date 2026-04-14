@@ -1,7 +1,8 @@
 'use client';
 
-import { useRef } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
+import { useRef, useContext } from 'react';
+import { useRouter } from 'next/navigation';
+import { GlobalContext } from '../context/GlobalContext';
 import Paper from '@mui/material/Paper';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
@@ -35,10 +36,23 @@ const navItems = [
 ];
 
 export default function Bottom() {
-  const pathname = usePathname();
+  const { currentUrl } = useContext(GlobalContext);
   const router = useRouter();
   const scrollRef = useRef(null);
-  const activeIndex = navItems.findIndex(({ href }) => href === pathname);
+  
+  // Extract only the last part of the URL
+  const getLastSegment = (url) => {
+    if (url === '/') return '/';
+    const segments = url.split('/').filter(Boolean);
+    return segments[segments.length - 1];
+  };
+  
+  const currentSegment = getLastSegment(currentUrl);
+  
+  const activeIndex = navItems.findIndex(({ href }) => {
+    const hrefSegment = href === '/' ? '/' : href.split('/').filter(Boolean).pop();
+    return hrefSegment === currentSegment;
+  });
 
   const scroll = (dir) => {
     scrollRef.current?.scrollBy({ left: dir * 150, behavior: 'smooth' });
@@ -77,9 +91,9 @@ export default function Bottom() {
                 minWidth: 72,
                 flexShrink: 0,
                 '&.Mui-selected': {
-                  backgroundColor: '#00a76f1f',
-                  color: 'primary.main',
-                  '& .MuiSvgIcon-root': { color: 'primary.main' },
+                  backgroundColor: '#008bc133',
+                  color: '#008bc1',
+                  '& .MuiSvgIcon-root': { color: '#008bc1' },
                 },
               }}
             />
