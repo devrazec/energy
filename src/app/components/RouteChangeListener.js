@@ -24,12 +24,20 @@ export default function RouteChangeListener() {
   useEffect(() => {
     setCurrentUrl(getSegment(pathname));
     previousPathname.current = pathname;
+    hideLoading();
   }, []);
 
   // Handle pathname changes
   useEffect(() => {
     if (previousPathname.current !== null && pathname !== previousPathname.current) {
-      showLoading();
+      const pathWithoutBase = pathname.replace(/^\/energy/, '') || '/';
+      const isHome = pathWithoutBase === '/';
+      
+      // Don't show loading for home page
+      if (!isHome) {
+        showLoading();
+      }
+      
       setCurrentUrl(getSegment(pathname));
       previousPathname.current = pathname;
       
