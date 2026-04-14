@@ -2,6 +2,7 @@
 
 import { Backdrop, CircularProgress, Box, Typography } from '@mui/material';
 import { useContext } from 'react';
+import Image from 'next/image';
 import { GlobalContext } from '../context/GlobalContext';
 
 export default function Loading() {
@@ -30,6 +31,8 @@ export default function Loading() {
           backdropFilter: 'blur(10px)',
         }}
       >
+        <Box sx={{ marginBottom: '8px' }}>
+        </Box>
         <Box sx={{ position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <CircularProgress
             size={70}
@@ -41,12 +44,23 @@ export default function Loading() {
           <Box
             sx={{
               position: 'absolute',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
               width: 70,
               height: 70,
               borderRadius: '50%',
               background: 'linear-gradient(45deg, rgba(0, 139, 193, 0.1) 0%, rgba(0, 139, 193, 0.05) 100%)',
             }}
-          />
+          >
+            <Image
+              src="/energy/logo1.png"
+              alt="ENERGY"
+              width={30}
+              height={30}
+              style={{ objectFit: 'contain' }}
+            />
+          </Box>
         </Box>
         <Box sx={{ textAlign: 'center' }}>
           <Typography
