@@ -18,6 +18,8 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Popover from '@mui/material/Popover';
 import Paper from '@mui/material/Paper';
+import { usePathname } from 'next/navigation';
+
 
 function RangeDay({ day, startDate, endDate, outsideCurrentMonth, ...pickersDayProps }) {
   const start = dayjs(startDate);
@@ -68,6 +70,7 @@ export default function Top() {
         setSelectedDate, selectedMonth, setSelectedMonth,
         selectedYear, setSelectedYear, currentUrl } = useContext(GlobalContext);
   const router = useRouter();
+  const pathname = usePathname();
   const anchorRef = useRef(null);
 
   // Extract only the last part of the URL
