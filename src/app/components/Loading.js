@@ -56,8 +56,8 @@ export default function Loading() {
             <Image
               src="/energy/logo1.png"
               alt="ENERGY"
-              width={30}
-              height={30}
+              width={50}
+              height={50}
               style={{ objectFit: 'contain' }}
             />
           </Box>
