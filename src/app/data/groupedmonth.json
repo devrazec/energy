@@ -9,7 +9,7 @@
                 "max_active_power": 255.76,
                 "avg_active_power": 87.73363809265729
             },
-            "PTA": {
+            "Production": {
                 "total_active_energy": 376956.75000000367,
                 "min_active_energy": 8.33,
                 "max_active_energy": 6911.02,
@@ -17,7 +17,7 @@
                 "max_active_power": 149.04,
                 "avg_active_power": 56.71329118773996
             },
-            "PTB": {
+            "Consumption": {
                 "total_active_energy": 198824.95000000016,
                 "min_active_energy": 1.44,
                 "max_active_energy": 5049.63,
@@ -35,7 +35,7 @@
                 "max_active_power": 240.89916666666664,
                 "avg_active_power": 87.69632363216263
             },
-            "PTA": {
+            "Production": {
                 "total_active_energy": 369661.290000001,
                 "min_active_energy": 33.76,
                 "max_active_energy": 144.84999999999997,
@@ -43,7 +43,7 @@
                 "max_active_power": 144.84999999999997,
                 "avg_active_power": 56.69527134458092
             },
-            "PTB": {
+            "Consumption": {
                 "total_active_energy": 194793.36000000054,
                 "min_active_energy": 6.04,
                 "max_active_energy": 5078.990000000001,
@@ -61,7 +61,7 @@
                 "max_active_power": 228.32833333333332,
                 "avg_active_power": 87.62437776166172
             },
-            "PTA": {
+            "Production": {
                 "total_active_energy": 368619.2299999995,
                 "min_active_energy": 101.70999999999998,
                 "max_active_energy": 413.88,
@@ -69,7 +69,7 @@
                 "max_active_power": 137.96111111111108,
                 "avg_active_power": 56.64838123046977
             },
-            "PTB": {
+            "Consumption": {
                 "total_active_energy": 189040.82000000004,
                 "min_active_energy": 20.65,
                 "max_active_energy": 271.08,
@@ -81,8 +81,8 @@
     },
     "measurements": {
         "2025-03": {
-            "PTA": {
-                "pt_id": "PTA",
+            "Production": {
+                "pt_id": "Production",
                 "month": "2025-03",
                 "imp_active_energy (kWh)": 11946.239999999998,
                 "exp_active_energy (kWh)": 0.0,
@@ -90,8 +90,8 @@
                 "reactive_power (kVAR)": -18.313768436578172,
                 "apparent_power (kVA)": 56.157682522123906
             },
-            "PTB": {
-                "pt_id": "PTB",
+            "Consumption": {
+                "pt_id": "Consumption",
                 "month": "2025-03",
                 "imp_active_energy (kWh)": 6075.270000000002,
                 "exp_active_energy (kWh)": 0.0,
@@ -101,8 +101,8 @@
             }
         },
         "2025-04": {
-            "PTA": {
-                "pt_id": "PTA",
+            "Production": {
+                "pt_id": "Production",
                 "month": "2025-04",
                 "imp_active_energy (kWh)": 32590.02000000001,
                 "exp_active_energy (kWh)": 0.0,
@@ -110,8 +110,8 @@
                 "reactive_power (kVAR)": -16.789402942840976,
                 "apparent_power (kVA)": 58.511059705715894
             },
-            "PTB": {
-                "pt_id": "PTB",
+            "Consumption": {
+                "pt_id": "Consumption",
                 "month": "2025-04",
                 "imp_active_energy (kWh)": 16948.809999999998,
                 "exp_active_energy (kWh)": 1.4,
@@ -121,8 +121,8 @@
             }
         },
         "2025-05": {
-            "PTA": {
-                "pt_id": "PTA",
+            "Production": {
+                "pt_id": "Production",
                 "month": "2025-05",
                 "imp_active_energy (kWh)": 42549.56999999999,
                 "exp_active_energy (kWh)": 0.0,
@@ -130,8 +130,8 @@
                 "reactive_power (kVAR)": -9.299299145299141,
                 "apparent_power (kVA)": 59.235058514135424
             },
-            "PTB": {
-                "pt_id": "PTB",
+            "Consumption": {
+                "pt_id": "Consumption",
                 "month": "2025-05",
                 "imp_active_energy (kWh)": 18639.730000000007,
                 "exp_active_energy (kWh)": 2.83,
@@ -141,8 +141,8 @@
             }
         },
         "2025-06": {
-            "PTA": {
-                "pt_id": "PTA",
+            "Production": {
+                "pt_id": "Production",
                 "month": "2025-06",
                 "imp_active_energy (kWh)": 40686.669999999984,
                 "exp_active_energy (kWh)": 0.0,
@@ -150,8 +150,8 @@
                 "reactive_power (kVAR)": -7.154973486249846,
                 "apparent_power (kVA)": 63.1287150080158
             },
-            "PTB": {
-                "pt_id": "PTB",
+            "Consumption": {
+                "pt_id": "Consumption",
                 "month": "2025-06",
                 "imp_active_energy (kWh)": 20479.91,
                 "exp_active_energy (kWh)": 0.9600000000000002,
@@ -161,8 +161,8 @@
             }
         },
         "2025-07": {
-            "PTA": {
-                "pt_id": "PTA",
+            "Production": {
+                "pt_id": "Production",
                 "month": "2025-07",
                 "imp_active_energy (kWh)": 47138.74000000001,
                 "exp_active_energy (kWh)": 0.0,
@@ -170,8 +170,8 @@
                 "reactive_power (kVAR)": -4.24144937275986,
                 "apparent_power (kVA)": 65.2413866487455
             },
-            "PTB": {
-                "pt_id": "PTB",
+            "Consumption": {
+                "pt_id": "Consumption",
                 "month": "2025-07",
                 "imp_active_energy (kWh)": 26386.26,
                 "exp_active_energy (kWh)": 0.0,
@@ -181,8 +181,8 @@
             }
         },
         "2025-08": {
-            "PTA": {
-                "pt_id": "PTA",
+            "Production": {
+                "pt_id": "Production",
                 "month": "2025-08",
                 "imp_active_energy (kWh)": 40943.17000000003,
                 "exp_active_energy (kWh)": 0.0,
@@ -190,8 +190,8 @@
                 "reactive_power (kVAR)": -5.461014005602237,
                 "apparent_power (kVA)": 57.11517535014006
             },
-            "PTB": {
-                "pt_id": "PTB",
+            "Consumption": {
+                "pt_id": "Consumption",
                 "month": "2025-08",
                 "imp_active_energy (kWh)": 26083.489999999994,
                 "exp_active_energy (kWh)": 0.0,
@@ -201,8 +201,8 @@
             }
         },
         "2025-09": {
-            "PTA": {
-                "pt_id": "PTA",
+            "Production": {
+                "pt_id": "Production",
                 "month": "2025-09",
                 "imp_active_energy (kWh)": 41068.740000000005,
                 "exp_active_energy (kWh)": 0.0,
@@ -210,8 +210,8 @@
                 "reactive_power (kVAR)": -6.850238770685584,
                 "apparent_power (kVA)": 60.27880614657209
             },
-            "PTB": {
-                "pt_id": "PTB",
+            "Consumption": {
+                "pt_id": "Consumption",
                 "month": "2025-09",
                 "imp_active_energy (kWh)": 24071.82,
                 "exp_active_energy (kWh)": 0.07,
@@ -221,8 +221,8 @@
             }
         },
         "2025-10": {
-            "PTA": {
-                "pt_id": "PTA",
+            "Production": {
+                "pt_id": "Production",
                 "month": "2025-10",
                 "imp_active_energy (kWh)": 42129.579999999994,
                 "exp_active_energy (kWh)": 0.0,
@@ -230,8 +230,8 @@
                 "reactive_power (kVAR)": -9.57168346774194,
                 "apparent_power (kVA)": 58.717921146953415
             },
-            "PTB": {
-                "pt_id": "PTB",
+            "Consumption": {
+                "pt_id": "Consumption",
                 "month": "2025-10",
                 "imp_active_energy (kWh)": 22702.489999999994,
                 "exp_active_energy (kWh)": 0.0,
@@ -241,8 +241,8 @@
             }
         },
         "2025-11": {
-            "PTA": {
-                "pt_id": "PTA",
+            "Production": {
+                "pt_id": "Production",
                 "month": "2025-11",
                 "imp_active_energy (kWh)": 38585.71999999999,
                 "exp_active_energy (kWh)": 0.0,
@@ -250,8 +250,8 @@
                 "reactive_power (kVAR)": -15.874925321292126,
                 "apparent_power (kVA)": 56.15478291073289
             },
-            "PTB": {
-                "pt_id": "PTB",
+            "Consumption": {
+                "pt_id": "Consumption",
                 "month": "2025-11",
                 "imp_active_energy (kWh)": 20881.350000000002,
                 "exp_active_energy (kWh)": 5.0600000000000005,
@@ -261,8 +261,8 @@
             }
         },
         "2025-12": {
-            "PTA": {
-                "pt_id": "PTA",
+            "Production": {
+                "pt_id": "Production",
                 "month": "2025-12",
                 "imp_active_energy (kWh)": 39318.3,
                 "exp_active_energy (kWh)": 0.0,
@@ -270,8 +270,8 @@
                 "reactive_power (kVAR)": -16.41676187275986,
                 "apparent_power (kVA)": 55.54154121863801
             },
-            "PTB": {
-                "pt_id": "PTB",
+            "Consumption": {
+                "pt_id": "Consumption",
                 "month": "2025-12",
                 "imp_active_energy (kWh)": 16555.819999999996,
                 "exp_active_energy (kWh)": 16.669999999999998,

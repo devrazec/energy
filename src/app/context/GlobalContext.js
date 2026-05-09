@@ -8,7 +8,6 @@ import todayJson from '../data/today.json';
 import yesterdayJson from '../data/yesterday.json';
 import weekJson from '../data/week.json';
 import monthJson from '../data/month.json';
-import yearJson from '../data/year.json';
 
 import groupedDayJson from '../data/groupedday.json';
 import groupedMonthJson from '../data/groupedmonth.json';
@@ -32,7 +31,6 @@ export function GlobalProvider({ children }) {
 
   const [dbWeek, setDbWeek] = useState(weekJson);
   const [dbMonth, setDbMonth] = useState(monthJson);
-  const [dbYear, setDbYear] = useState(yearJson);
 
   const [dbOneDay, setDbOneDay] = useState(oneDayJson);
   const [dbOneMonth, setDbOneMonth] = useState(oneMonthJson);
@@ -69,8 +67,6 @@ export function GlobalProvider({ children }) {
         setDbWeek,
         dbMonth,
         setDbMonth,
-        dbYear,
-        setDbYear,
 
         dbOneDay,
         setDbOneDay,

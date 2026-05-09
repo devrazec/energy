@@ -49,8 +49,8 @@ export default function OneDayPage() {
 
         const timestamps = Object.keys(measurements).sort();
 
-        const ptaSeries = timestamps.map(dt => [dt, measurements[dt]?.PTA?.['active_power (kW)'] ?? null]);
-        const ptbSeries = timestamps.map(dt => [dt, measurements[dt]?.PTB?.['active_power (kW)'] ?? null]);
+        const ProductionSeries = timestamps.map(dt => [dt, measurements[dt]?.Production?.['active_power (kW)'] ?? null]);
+        const ConsumptionSeries = timestamps.map(dt => [dt, measurements[dt]?.Consumption?.['active_power (kW)'] ?? null]);
 
         const forecastMap = {};
         forecastData.forEach(f => { forecastMap[f.datetime] = f.active_power; });
@@ -79,7 +79,7 @@ export default function OneDayPage() {
                 borderColor: darkMode ? '#374151' : '#ccc',
                 textStyle: { color: darkMode ? '#d1d5db' : '#333' },
             },
-            legend: { data: ['PTA', 'PTB', 'Forecast'], orient: 'vertical', top: 'middle', right: 0, textStyle: { color: darkMode ? '#d1d5db' : '#333' } },
+            legend: { data: ['Production', 'Consumption', 'Forecast'], orient: 'vertical', top: 'middle', right: 0, textStyle: { color: darkMode ? '#d1d5db' : '#333' } },
             grid: isMobile
                 ? { left: 10, right: 10, bottom: 100, top: 40, containLabel: true }
                 : { left: 50, right: 90, bottom: 80, top: 40, containLabel: false },
@@ -112,9 +112,9 @@ export default function OneDayPage() {
             ],
             series: [
                 {
-                    name: 'PTA',
+                    name: 'Production',
                     type: 'line',
-                    data: ptaSeries,
+                    data: ProductionSeries,
                     smooth: true,
                     showSymbol: false,
                     color: '#0ea5e9',
@@ -143,9 +143,9 @@ export default function OneDayPage() {
                     },
                 },
                 {
-                    name: 'PTB',
+                    name: 'Consumption',
                     type: 'line',
-                    data: ptbSeries,
+                    data: ConsumptionSeries,
                     smooth: true,
                     showSymbol: false,
                     color: '#10b981',
@@ -216,8 +216,8 @@ export default function OneDayPage() {
 
     const summaryCards = [
         { label: 'Total', data: summary.Total, icon: '🔋', color: '#008bc1', bg: '#e0f4fb', darkBg: '#0c2d3d' },
-        { label: 'PTA',   data: summary.PTA,   icon: '⚡', color: '#0ea5e9', bg: '#e0f2fe', darkBg: '#0c2233' },
-        { label: 'PTB',   data: summary.PTB,   icon: '⚡', color: '#10b981', bg: '#d1fae5', darkBg: '#052e22' },
+        { label: 'Production',   data: summary.Production,   icon: '⚡', color: '#0ea5e9', bg: '#e0f2fe', darkBg: '#0c2233' },
+        { label: 'Consumption',   data: summary.Consumption,   icon: '⚡', color: '#10b981', bg: '#d1fae5', darkBg: '#052e22' },
     ];
 
     return (

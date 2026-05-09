@@ -216,6 +216,7 @@ export default function Top() {
                 <Box sx={{ p: 1 }}>
                   <DateCalendar
                     value={selectedDate}
+                    readOnly
                     onChange={(newValue) => {
                       if (!newValue?.isValid()) return;
                       setSelectedDate(newValue);
@@ -242,6 +243,7 @@ export default function Top() {
                 <Box sx={{ p: 1 }}>
                   <DateCalendar
                     value={selectedMonth}
+                    readOnly
                     onChange={(newValue) => {
                       if (!newValue?.isValid()) return;
                       setSelectedMonth(newValue);
@@ -260,6 +262,7 @@ export default function Top() {
                 <Box sx={{ p: 1 }}>
                   <DateCalendar
                     value={selectedYear}
+                    readOnly
                     onChange={(newValue) => {
                       if (!newValue?.isValid()) return;
                       setSelectedYear(newValue);
@@ -281,6 +284,7 @@ export default function Top() {
                       <Typography variant="caption" color="text.secondary" sx={{ px: 2 }}>Start date</Typography>
                       <DateCalendar
                         value={dayjs(range[0].startDate)}
+                        readOnly
                         onChange={(newValue) => {
                           if (!newValue?.isValid()) return;
                           const startDate = newValue.toDate();
@@ -298,6 +302,7 @@ export default function Top() {
                       <Typography variant="caption" color="text.secondary" sx={{ px: 2 }}>End date</Typography>
                       <DateCalendar
                         value={dayjs(range[0].endDate)}
+                        readOnly
                         onChange={(newValue) => {
                           if (!newValue?.isValid()) return;
                           const endDate = newValue.toDate();

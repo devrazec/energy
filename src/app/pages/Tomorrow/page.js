@@ -45,8 +45,8 @@ export default function TomorrowPage() {
         const isMobile = !!mobileDevice;
         const timestamps = Object.keys(measurements).sort();
 
-        const ptaSeries = timestamps.map(dt => [dt, measurements[dt]?.PTA?.['active_power (kW)'] ?? null]);
-        const ptbSeries = timestamps.map(dt => [dt, measurements[dt]?.PTB?.['active_power (kW)'] ?? null]);
+        const ProductionSeries = timestamps.map(dt => [dt, measurements[dt]?.Production?.['active_power (kW)'] ?? null]);
+        const ConsumptionSeries = timestamps.map(dt => [dt, measurements[dt]?.Consumption?.['active_power (kW)'] ?? null]);
 
         const forecastMap = {};
         forecastData.forEach(f => { forecastMap[f.datetime] = f.active_power; });
@@ -95,9 +95,9 @@ export default function TomorrowPage() {
             ],
             series: [
                 {
-                    name: 'PTA',
+                    name: 'Production',
                     type: 'line',
-                    data: ptaSeries,
+                    data: ProductionSeries,
                     smooth: true,
                     showSymbol: false,
                     color: '#0ea5e9',
@@ -121,9 +121,9 @@ export default function TomorrowPage() {
                     },
                 },
                 {
-                    name: 'PTB',
+                    name: 'Consumption',
                     type: 'line',
-                    data: ptbSeries,
+                    data: ConsumptionSeries,
                     smooth: true,
                     showSymbol: false,
                     color: '#10b981',
