@@ -121,6 +121,7 @@ The application uses JSON files containing energy measurements with the followin
 - **Metrics**: Active power (kW), total energy, min/max/avg values
 
 ## Screenshots
+![Pic1](./public/screenshot/pic1.jpg)
 ![Pic2](./public/screenshot/pic2.jpg)
 ![Pic3](./public/screenshot/pic3.jpg)
 ![Pic4](./public/screenshot/pic4.jpg)
@@ -135,6 +136,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 
 GitHub: [devrazec/energy](https://github.com/devrazec/energy)
 
-## Demo
+## Example of Dashboard
 
-GitHub: https://devrazec.github.io/energy
+https://help.energyid.eu/en/insights-reporting/create-your-own-dashboard/
